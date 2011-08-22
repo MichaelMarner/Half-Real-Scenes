@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="Audio Play Bell 0" />
+
+		<!-- TO COME: Words Montage -->
+
+	</CronEvents>
+
+	<Assets>
+		<Asset type="audio" name="Bell"  file="bell.ogg" />
+	</Assets>
+
+	<VoteOptions>
+		<VoteOption text="Otus"     wall="left" inactive="0 0 255" active="0 0 255" x="0" y="150" z="0"/>
+		<VoteOption text="Jason"    wall="right" inactive="255 0 0" active="255 0 0" x="0" y="150" z="0"/>
+		<VoteOption text="Penelope" wall="right" inactive="0 255 0" active="0 255 0" x="200" y="150" z="0"/>
+	</VoteOptions>
+
+	<TextItems>
+		<ProjectedText id="vv"      wall="left" x="60" y="250" color=" 255 255 255">Violet Vario</ProjectedText>
+		<ProjectedText id="drowned" wall="left" x="60" y="233" color="255 255 255">Drowned</ProjectedText>
+		<ProjectedText id="time"    wall="left" x="60" y="215" color="255 255 255">7.55-8pm</ProjectedText>
+	</TextItems>
+</Scene>
