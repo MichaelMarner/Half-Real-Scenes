@@ -2,6 +2,13 @@
 <Scene>
 	<CronEvents>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 3" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Bathroom_F 3" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText l1 appear" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText goal appear" />
 	</CronEvents>
 
 	<Assets>
@@ -15,6 +22,7 @@
 	</VoteOptions>
 
 	<TextItems>
-
+		<ProjectedText id="l1"      wall="left" x="60" y="250" color=" 255 255 255">Level One</ProjectedText>
+		<ProjectedText id="goal"    wall="left" x="60" y="233" color=" 255 255 255">Goal: Determine Origin of Evidence</ProjectedText>
 	</TextItems>
 </Scene>
