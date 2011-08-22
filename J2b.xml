@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<Event name="ToImage LeftWall  Bar_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Bar_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Bar_F 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+	</CronEvents>
+
+	<Assets>
+		<Asset type="image" name="Bar_L"  file="Bar_01_L.png" />
+		<Asset type="image" name="Bar_R"  file="Bar_01_R.png" />
+		<Asset type="image" name="Bar_F"  file="Bar_01_F.png" />
+	</Assets>
+
+	<VoteOptions>
+		<VoteOption text="Option1" wall="left" inactive="0 0 0 " active="255 255 255" x="-90" y="145" />
+		<VoteOption text="Option2" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" />
+		<VoteOption text="Option3" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" />
+	</VoteOptions>
+
+	<TextItems>
+
+	</TextItems>
+</Scene>

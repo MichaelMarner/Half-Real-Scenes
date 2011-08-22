@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Lineup_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Lineup_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor Lineup_F 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText vv appear" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText drowned appear" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText time appear" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText vv fadeout" />
+		<Event name="ProjectedText drowned fadeout" />
+		<Event name="ProjectedText time fadeout" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 3" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Bathroom_F 3" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText l1 appear" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText goal appear" />
+	</CronEvents>
+
+	<Assets>
+		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
+		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
+		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
+		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />
+		<Asset type="image" name="Bathroom_R"  file="Bathroom_R.png" />
+		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
+	</Assets>
+
+	<VoteOptions>
+		<VoteOption text="Otus" wall="left" inactive="0 0 0 " active="0 0 255" x="0" y="1500" />
+		<VoteOption text="Jason" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" />
+		<VoteOption text="Penelope" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" />
+	</VoteOptions>
+
+	<TextItems>
+		<ProjectedText id="vv" wall="left" x="60" y="250" color=" 255 255 255">Violet Vario</ProjectedText>
+		<ProjectedText id="drowned" wall="left" x="60" y="233" color="255 255 255">Drowned</ProjectedText>
+		<ProjectedText id="time" wall="left" x="60" y="215" color="255 255 255">7.55-8pm</ProjectedText>
+<ProjectedText id="l1" wall="left" x="60" y="250" color=" 255 255 255">Level One</ProjectedText>
+
+<ProjectedText id="goal" wall="left" x="60" y="233" color=" 255 255 255">Goal: Determine Origin of Evidence</ProjectedText>
+	</TextItems>
+</Scene>

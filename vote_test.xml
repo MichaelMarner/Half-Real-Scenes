@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     floor 1" time="0:02" repeat="0" />
+		<Event name="ToVideo LeftWall  left 1 1 0" time="0:02" repeat="0" />
+		<Event name="ToVideo RightWall right 1 1 0" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="Goto vote_test" />
+	</CronEvents>
+
+	<Assets>
+		<Asset type="image" name="floor"  file="Lineup_01_Floor.png" />
+		<Asset type="video" name="left"  file="Lineup_01_Left.mov" />
+		<Asset type="video" name="right" file="Lineup_01_Right.mov" />
+	</Assets>
+</Scene>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<Event name="ToImage LeftWall  Living_Room_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Living_Room_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Living_Room_F 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+	</CronEvents>
+
+	<Assets>
+		<Asset type="image" name="Living_Room_L"  file="Living_Room_L.png" />
+		<Asset type="image" name="Living_Room_R"  file="Living_Room_R.png" />
+		<Asset type="image" name="Living_Room_F"  file="Living_Room_F.png" />
+	</Assets>
+
+	<VoteOptions>
+		<VoteOption text="Option1" wall="left" inactive="0 0 0 " active="0 0 255" x="0" y="1500" />
+		<VoteOption text="Option2" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" />
+		<VoteOption text="Option3" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" />
+	</VoteOptions>
+
+	<TextItems>
+
+	</TextItems>
+</Scene>

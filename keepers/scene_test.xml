@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<Event name="ToColor LeftWall  255 255 255 1" time="0:02" repeat="0" />
+		<Event name="ToColor RightWall 255 255 255 1" time="0:02" repeat="0" />
+		<Event name="ToColor Floor     255 255 255 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="ToImage LeftWall  guide_left 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall guide_right 1" time="0:02" repeat="0" />
+		<Event name="ToColor Floor 255 255 255 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="ToImage LeftWall  c_left 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall c_right 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     c_floor 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="ToVideo LeftWall  c_left_m 1 1 1" time="0:02" repeat="0" />
+		<Event name="ToVideo RightWall  c_right_m 1 1 1" time="0:02" repeat="0" />
+		<Event name="ToVideo Floor      c_floor_m 1 1 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="ToImage LeftWall br_left 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall br_right 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor br_floor 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="ToImage LeftWall  bs_left 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall bs_right 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     bs_floor 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="ToImage LeftWall  b_left 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall b_right 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     b_floor 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="ToImage LeftWall  cs_left 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall cs_right 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     cs_floor 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="ToImage LeftWall  dr_left 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall dr_right 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     dr_floor 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="ToImage LeftWall  tp_left 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall tp_right 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     tp_floor 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="Goto scene_test" />
+	</CronEvents>
+
+	<Assets>
+		<Asset type="image" name="br_left"  file="Bathroom_01_Left.png" />
+		<Asset type="image" name="br_right" file="Bathroom_01_Right.png" />
+		<Asset type="image" name="br_floor" file="Bathroom_01_Floor.png" />
+
+		<Asset type="image" name="bs_left"  file="Bookstore_01_Left.png" />
+		<Asset type="image" name="bs_right" file="Bookstore_01_Right.png" />
+		<Asset type="image" name="bs_floor" file="Bookstore_01_Floor.png" />
+
+		<Asset type="image" name="b_left"  file="Brothel_01_Left.png" />
+		<Asset type="image" name="b_right" file="Brothel_01_Right.png" />
+		<Asset type="image" name="b_floor" file="Brothel_01_Floor.png" />
+
+		<Asset type="image" name="cs_left"  file="Camera_Shop_01_Left.png" />
+		<Asset type="image" name="cs_right" file="Camera_Shop_01_Right.png" />
+		<Asset type="image" name="cs_floor" file="Camera_Shop_01_Floor.png" />
+
+		<Asset type="image" name="dr_left"  file="Darkroom_01_Left.png" />
+		<Asset type="image" name="dr_right" file="Darkroom_01_Right.png" />
+		<Asset type="image" name="dr_floor" file="Darkroom_01_Floor.png" />
+
+		<Asset type="image" name="c_left"  file="Cemetery_01_Left.png" />
+		<Asset type="image" name="c_right" file="Cemetery_01_Right.png" />
+		<Asset type="image" name="c_floor" file="Cemetery_01_Floor.png" />
+
+		
+		<Asset type="video" name="c_left_m" file="Cemetery_01_Left.mov" />
+		<Asset type="video" name="c_right_m" file="Cemetery_01_Right.mov" />
+		<Asset type="video" name="c_floor_m" file="Cemetery_01_Floor.mov" />
+
+		<Asset type="image" name="tp_left"  file="Tattoo_Parlour_Left.png" />
+		<Asset type="image" name="tp_right" file="Tattoo_Parlour_Right.png" />
+		<Asset type="image" name="tp_floor" file="Tattoo_Parlour_Floor.png" />
+
+		<Asset type="image" name="guide_left"  file="Guide_Left.png" />
+		<Asset type="image" name="guide_right" file="Guide_Right.png" />
+	</Assets>
+</Scene>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<Event name="ToImage LeftWall  Alley_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Alley_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Alley_F 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Bookstore_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Bookstore_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Bookstore_F 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+	</CronEvents>
+
+	<Assets>
+		<Asset type="image" name="Alley_L"  file="Alleyway_Santiago_L.png" />
+		<Asset type="image" name="Alley_R"  file="Alleyway_Santiago_R.png" />
+		<Asset type="image" name="Alley_F"  file="Alleyway_Santiago_F.png" />
+		<Asset type="image" name="Bookstore_L"  file="Bookstore_L.png" />
+		<Asset type="image" name="Bookstore_R"  file="Bookstore_R.png" />
+		<Asset type="image" name="Bookstore_F"  file="Bookstore_F.png" />
+	</Assets>
+
+	<VoteOptions>
+		<VoteOption text="Option1" wall="left" inactive="0 0 0 " active="0 0 255" x="0" y="1500" />
+		<VoteOption text="Option2" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" />
+		<VoteOption text="Option3" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" />
+	</VoteOptions>
+
+	<TextItems>
+
+	</TextItems>
+</Scene>

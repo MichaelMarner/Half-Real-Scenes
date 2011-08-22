@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<Event name="ToImage LeftWall  Cemetery_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Cemetery_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Cemetery_F 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Living_Room_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Living_Room_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Living_Room_F 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText s1 appear" />
+	</CronEvents>
+
+	<Assets>
+		<Asset type="image" name="Cemetery_L"  file="Cemetery_L.png" />
+		<Asset type="image" name="Cemetery_R"  file="Cemetery_R.png" />
+		<Asset type="image" name="Cemetery_F"  file="Cemetery_F.png" />
+		<Asset type="image" name="Living_Room_L"  file="Living_Room_L.png" />
+		<Asset type="image" name="Living_Room_R"  file="Living_Room_R.png" />
+		<Asset type="image" name="Living_Room_F"  file="Living_Room_F.png" />
+	</Assets>
+
+	<TextItems>
+		<ProjectedText id="s1" wall="left" x="60" y="250" color=" 255 255 255">Lorem Ipsum Asdf Blah</ProjectedText>
+	</TextItems>
+
+	<VoteOptions>
+		<VoteOption text="Option1" wall="left" inactive="0 0 0 " active="0 0 255" x="0" y="1500" />
+		<VoteOption text="Option2" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" />
+		<VoteOption text="Option3" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" />
+	</VoteOptions>
+
+	<TextItems>
+
+	</TextItems>
+</Scene>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<Event name="ToImage LeftWall left 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall right 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor floor 1" time="0:02" repeat="0" />
+	</CronEvents>
+
+	<Assets>
+		<Asset type="image" name="left" file="bathroom_left.png" />
+		<Asset type="image" name="right" file="bathroom_right.png" />
+		<Asset type="image" name="floor" file="bathroom_floor.png" />
+	</Assets>
+</Scene>
