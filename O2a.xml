@@ -1,32 +1,87 @@
 <?xml version="1.0" ?>
 <Scene>
 	<CronEvents>
+		<!-- BLACK -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
+		<Event name="ProjectedText info1 appear" time="0"/>
+		<Event name="ProjectedText time1 appear" time="0:01"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Alley -->
+		<Event name="ProjectedText info1 fadeout" time="0:00"/>
+		<Event name="ProjectedText time1 fadeout" time="0:00"/>
 		<Event name="ToImage LeftWall  Alley_L 1" time="0:02" repeat="0" />
 		<Event name="ToImage RightWall Alley_R 1" time="0:02" repeat="0" />
 		<Event name="ToImage Floor     Alley_F 1" time="0:02" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  Bookstore_L 1" time="0:02" repeat="0" />
-		<Event name="ToImage RightWall Bookstore_R 1" time="0:02" repeat="0" />
-		<Event name="ToImage Floor     Bookstore_F 1" time="0:02" repeat="0" />
+
+
+		<!-- BLACK -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- BACK TO INTERVIEW -->
+		<Event name="ToImage LeftWall  Interview_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Interview_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Interview_F 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Book Store -->
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
+		<Event name="ProjectedText info2 appear" time="0"/>
+		<Event name="ToImage LeftWall  Bookstore_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Bookstore_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Bookstore_F 1" time="0:00" repeat="0" />
+		<Event name="ProjectedText info2 fadeout" time="0:03"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Vote Options -->
+		<Event name="VoteOption 1 appear" time="0:00"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 2 appear" time="0:00"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Lineup -->
+		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
+		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
+		<Event name="VoteOption 1 fadeout" time="0:00"/>
+		<Event name="VoteOption 2 fadeout" time="0:00"/>
 	</CronEvents>
 
 	<Assets>
 		<Asset type="image" name="Alley_L"  file="Alleyway_Santiago_L.png" />
 		<Asset type="image" name="Alley_R"  file="Alleyway_Santiago_R.png" />
 		<Asset type="image" name="Alley_F"  file="Alleyway_Santiago_F.png" />
+
 		<Asset type="image" name="Bookstore_L"  file="Bookstore_L.png" />
 		<Asset type="image" name="Bookstore_R"  file="Bookstore_R.png" />
 		<Asset type="image" name="Bookstore_F"  file="Bookstore_F.png" />
+
+		<Asset type="image" name="Interview_L"  file="Interview_L.png" />
+		<Asset type="image" name="Interview_R"  file="Interview_R.png" />
+		<Asset type="image" name="Interview_F"  file="Interview_F.png" />
+
+		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
+		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
+		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Option1" wall="left" inactive="0 0 0 " active="0 0 255" x="0" y="1500" />
-		<VoteOption text="Option2" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" />
-		<VoteOption text="Option3" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" />
+		<VoteOption text="Dead wife?" wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="1500" mode="ATA" />
+		<VoteOption text="Nervous tick?" wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="1500" mode="ATA"/>
 	</VoteOptions>
 
 	<TextItems>
-
+		<ProjectedText id="info1"      wall="left" x="60" y="250" color=" 255 255 255">Alley. Somewhere in Latin America</ProjectedText>
+		<ProjectedText id="time1"      wall="left" x="60" y="233" color=" 255 255 255">20 years ago</ProjectedText>
+		<ProjectedText id="info2"      wall="left" x="60" y="250" color=" 255 255 255">One month before the murder</ProjectedText>
 	</TextItems>
 </Scene>
