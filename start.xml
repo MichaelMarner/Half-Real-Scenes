@@ -3,36 +3,34 @@
 	<CronEvents>
 		<!-- TO COME: Lineup Room Sans Lines -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  Lineup_L 1" time="0:02" repeat="0" />
-		<Event name="ToImage RightWall Lineup_R 1" time="0:02" repeat="0" />
-		<Event name="ToImage Floor Lineup_F 1" time="0:02" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText time appear" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText vv appear" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText drowned appear" />
+		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
+		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
+		<Event name="CRONZERO"                     time="0:00" repeat="0" />
+		<Event name="ProjectedText time appear"    time="0:00"/>
+		<Event name="ProjectedText vv appear"      time="0:04"/>
+		<Event name="ProjectedText drowned appear" time="0:08"/>
 
 		<!-- TO COME: Tutorial Video -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText vv fadeout" />
-		<Event name="ProjectedText drowned fadeout" />
-		<Event name="ProjectedText time fadeout" />
+		<Event name="ProjectedText vv fadeout" time="0"/>
+		<Event name="ProjectedText drowned fadeout" time="0"/>
+		<Event name="ProjectedText time fadeout" time="0"/>
 
 		<!-- Vote options appear -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 1 appear" />
-		<Event name="Audio Play Bell 0" />
+		<Event name="VoteOption 1 appear" time="0"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 2 appear" />
+		<Event name="VoteOption 2 appear" time="0"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 3 appear" />
+		<Event name="VoteOption 3 appear" time="0"/>
 
 		<!-- Voting Complete -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 1 fadeout" />
-		<Event name="VoteOption 2 fadeout" />
-		<Event name="VoteOption 3 fadeout" />
+		<Event name="VoteOption 1 fadeout" time="0"/>
+		<Event name="VoteOption 2 fadeout" time="0"/>
+		<Event name="VoteOption 3 fadeout" time="0"/>
 
 		<!-- TO COME: Words Montage -->
 
@@ -42,14 +40,10 @@
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
-		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />
-		<Asset type="image" name="Bathroom_R"  file="Bathroom_R.png" />
-		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
-		<Asset type="audio" name="Bell"  file="bell.ogg" />
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Otus"     wall="left" vinactive="0 0 255" active="0 0 255" x="0"   y="150" mode="static"/>
+		<VoteOption text="Otus"     wall="auto"  inactive="0 0 255" active="0 0 255" x="0"   y="150" mode="ATA"/>
 		<VoteOption text="Jason"    wall="right" inactive="255 0 0" active="255 0 0" x="0"   y="150" mode="static"/>
 		<VoteOption text="Penelope" wall="right" inactive="0 255 0" active="0 255 0" x="200" y="150" mode="static"/>
 	</VoteOptions>
