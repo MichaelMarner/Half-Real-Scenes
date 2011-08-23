@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<!-- OTUS -->
+		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Laundry_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage LeftWall  Laundry_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Laundry_F 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Jason -->
+		<Event name="ToColor LeftWall  0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage LeftWall  Bathroom_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Bathroom_F 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Darkroom_R 8" time="0:02" repeat="0" />
+		<Event name="ToImage LeftWall  Darkroom_L 8" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Darkroom_F 8" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Penelope -->
+		<Event name="ToColor LeftWall  0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Penelope_Nightmare_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage LeftWall  Penelope_Nightmare_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Penelope_Nightmare_F 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+	</CronEvents>
+
+	<Assets>
+		<Asset type="image" name="Laundry_L"  file="Laundry_L.png" />
+		<Asset type="image" name="Laundry_R"  file="Laundry_R.png" />
+		<Asset type="image" name="Laundry_F"  file="Laundry_F.png" />
+		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
+		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
+		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
+		<Asset type="image" name="Bathroom_L"  file="Jason_Nightmare_L.png" />
+		<Asset type="image" name="Bathroom_R"  file="Jason_Nightmare_R.png" />
+		<Asset type="image" name="Bathroom_F"  file="Jason_Nightmare_F.png" />
+		<Asset type="image" name="Darkroom_L"  file="Darkroom_L.png" />
+		<Asset type="image" name="Darkroom_R"  file="Darkroom_R.png" />
+		<Asset type="image" name="Darkroom_F"  file="Darkroom_F.png" />
+		<Asset type="image" name="Penelope_Nightmare_L"  file="Penelope_Nightmare_L.png" />
+		<Asset type="image" name="Penelope_Nightmare_R"  file="Penelope_Nightmare_R.png" />
+		<Asset type="image" name="Penelope_Nightmare_F"  file="Penelope_Nightmare_F.png" />
+	</Assets>
+
+	<VoteOptions>
+		<VoteOption text="Option1" wall="left" inactive="0 0 0 " active="0 0 255" x="0" y="1500" mode="ATAU"/>
+		<VoteOption text="Option2" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" mode="ATAU"/>
+		<VoteOption text="Option3" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" mode="ATAU"/>
+	</VoteOptions>
+
+	<TextItems>
+
+	</TextItems>
+</Scene>
+

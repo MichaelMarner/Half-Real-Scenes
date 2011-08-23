@@ -5,9 +5,9 @@
 		<Event name="ToImage LeftWall  Penelope_Nightmare_L 1" time="0:02" repeat="0" />
 		<Event name="ToImage Floor     Penelope_Nightmare_F 1" time="0:02" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Darkroom_R 8" time="0:02" repeat="0" />
-		<Event name="ToImage LeftWall  Darkroom_L 8" time="0:02" repeat="0" />
-		<Event name="ToImage Floor     Darkroom_F 8" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 8" time="0:02" repeat="0" />
+		<Event name="ToImage LeftWall  Bathroom_L 8" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Bathroom_F 8" time="0:02" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 	</CronEvents>
 
@@ -15,9 +15,9 @@
 		<Asset type="image" name="Penelope_Nightmare_L"  file="Penelope_Nightmare_L.png" />
 		<Asset type="image" name="Penelope_Nightmare_R"  file="Penelope_Nightmare_R.png" />
 		<Asset type="image" name="Penelope_Nightmare_F"  file="Penelope_Nightmare_F.png" />
-		<Asset type="image" name="Darkroom_L"  file="Darkroom_L.png" />
-		<Asset type="image" name="Darkroom_R"  file="Darkroom_R.png" />
-		<Asset type="image" name="Darkroom_F"  file="Darkroom_F.png" />
+		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />
+		<Asset type="image" name="Bathroom_R"  file="Bathroom_R.png" />
+		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
 	</Assets>
 
 	<VoteOptions>
