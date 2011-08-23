@@ -1,17 +1,91 @@
 <?xml version="1.0" ?>
 <Scene>
 	<CronEvents>
+		<!-- BLACK -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  TP_L 1" time="0:02" repeat="0" />
-		<Event name="ToImage RightWall TP_R 1" time="0:02" repeat="0" />
-		<Event name="ToImage Floor     TP_F 1" time="0:02" repeat="0" />
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
+		<Event name="ProjectedText info1 appear" time="0"/>
+		<Event name="ProjectedText time1 appear" time="0:01"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Bathroom -->
+		<Event name="ProjectedText info1 fadeout" time="0:00"/>
+		<Event name="ProjectedText time1 fadeout" time="0:00"/>
+		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     BR_F 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Black -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ProjectedText info2 appear" time="0:01"/>
+		<Event name="ProjectedText time2 appear" time="0:01.5"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<Event name="ProjectedText info2 fadeout" time="0:05"/>
+		<Event name="ProjectedText time2 fadeout" time="0:05"/>
+		<!-- TO COME: CAR -->
+		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     BR_F 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Black -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ProjectedText info3 appear" time="0:01"/>
+		<Event name="ProjectedText time3 appear" time="0:01.5"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<Event name="ProjectedText info2 fadeout" time="0:05"/>
+		<Event name="ProjectedText time2 fadeout" time="0:05"/>
+		<!-- Living Room -->
+		<Event name="ToImage LeftWall  LR_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall LR_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     LR_F 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Black -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ProjectedText info4 appear" time="0:01"/>
+		<Event name="ProjectedText time4 appear" time="0:01.5"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+
+		<Event name="ProjectedText info4 fadeout" time="0:05"/>
+		<Event name="ProjectedText time4 fadeout" time="0:05"/>
+		<!-- Living Room -->
+		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     BR_F 1" time="0:00" repeat="0" />
+
+		<!-- Black -->
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 	</CronEvents>
 
 	<Assets>
-		<Asset type="image" name="TP_L"  file="Tattoo_Parlour_L.png" />
-		<Asset type="image" name="TP_R"  file="Tattoo_Parlour_R.png" />
-		<Asset type="image" name="TP_F"  file="Tattoo_Parlour_F.png" />
+		<Asset type="image" name="BR_L"  file="Bathroom_L.png" />
+		<Asset type="image" name="BR_R"  file="Bathroom_R.png" />
+		<Asset type="image" name="BR_F"  file="Bathroom_F.png" />
+
+		<Asset type="image" name="Otus_CAR_L"  file="Bathroom_L.png" />
+		<Asset type="image" name="Otus_CAR_R"  file="Bathroom_R.png" />
+		<Asset type="image" name="Otus_CAR_F"  file="Bathroom_F.png" />
+
+		<Asset type="image" name="LR_L"  file="Living_Room_L.png" />
+		<Asset type="image" name="LR_R"  file="Living_Room_R.png" />
+		<Asset type="image" name="LR_F"  file="Living_Room_F.png" />
 	</Assets>
 
 	<VoteOptions>
@@ -21,7 +95,17 @@
 	</VoteOptions>
 
 	<TextItems>
+		<ProjectedText id="info1"      wall="left" x="60" y="250" color=" 255 255 255">15 minutes before murder</ProjectedText>
+		<ProjectedText id="time1"      wall="left" x="60" y="233" color=" 255 255 255">7:44pm</ProjectedText>
 
+		<ProjectedText id="info2"      wall="left" x="60" y="250" color=" 255 255 255">Otus' car</ProjectedText>
+		<ProjectedText id="time2"      wall="left" x="60" y="233" color=" 255 255 255">7:55pm</ProjectedText>
+
+		<ProjectedText id="info3"      wall="left" x="60" y="250" color=" 255 255 255">Violet's living room</ProjectedText>
+		<ProjectedText id="time3"      wall="left" x="60" y="233" color=" 255 255 255">7:56pm</ProjectedText>
+
+		<ProjectedText id="info4"      wall="left" x="60" y="250" color=" 255 255 255">Violet's bathroom</ProjectedText>
+		<ProjectedText id="time4"      wall="left" x="60" y="233" color=" 255 255 255">8:00pm</ProjectedText>
 	</TextItems>
 </Scene>
 
