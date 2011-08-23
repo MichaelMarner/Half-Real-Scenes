@@ -11,12 +11,18 @@
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:08" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:08" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:08" repeat="0" />
-
-		<!-- Back to bathroom -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="ToVideo LeftWall  BRM_L 1 1 0" time="0:00" repeat="0" />
-		<Event name="ToVideo RightWall BRM_R 1 1 0" time="0:00" repeat="0" />
+
+		<!-- Back to bathroom -->
+		<Event name="ProjectedText info2 appear" time="0:00"/>
+		<Event name="ProjectedText time2 appear" time="0:01"/>
+		<Event name="ProjectedText info2 fadeout" time="0:05"/>
+		<Event name="ProjectedText time2 fadeout" time="0:05"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  BRM_L 2 1 0" time="0:00" repeat="0" />
+		<Event name="ToVideo RightWall BRM_R 2 1 0" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText blood1 appear" time="0:00"/>
 		<Event name="ProjectedText blood2 appear" time="0:00.5"/>
 		<Event name="VoteOption 1 appear" time="0:01"/>
@@ -24,7 +30,6 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 fadeout" time="0:00"/>
 		<Event name="VoteOption 2 fadeout" time="0:00"/>
-		<Event name="VoteOption 3 fadeout" time="0:00"/>
 		<Event name="ProjectedText blood1 fadeout" time="0:00"/>
 		<Event name="ProjectedText blood2 fadeout" time="0:00"/>
 	</CronEvents>
@@ -46,8 +51,10 @@
 	</VoteOptions>
 
 	<TextItems>
-		<ProjectedText id="info"      wall="left" x="60" y="250" color=" 255 255 255">Violet's Bathroom</ProjectedText>
-		<ProjectedText id="time"      wall="left" x="60" y="233" color=" 255 255 255">7:44pm</ProjectedText>
+		<ProjectedText id="info"      wall="left" x="60" y="250" color=" 255 255 255">Night of the Murder</ProjectedText>
+		<ProjectedText id="time"      wall="left" x="60" y="233" color=" 255 255 255">7:40pm</ProjectedText>
+		<ProjectedText id="info2"      wall="left" x="60" y="250" color=" 255 255 255">Violet's Bathroom</ProjectedText>
+		<ProjectedText id="time2"      wall="left" x="60" y="233" color=" 255 255 255">7:44pm</ProjectedText>
 		<ProjectedText id="blood1"     wall="right" x="100" y="110" color=" 255 255 255">Blood Established</ProjectedText>
 		<ProjectedText id="blood2"     wall="right" x="100" y="93" color=" 255 255 255">7:45pm</ProjectedText>
 	</TextItems>
