@@ -9,8 +9,8 @@
 		<Event name="ToImage LeftWall  Penelope_Nightmare_L 1" time="0:02" repeat="0" />
 		<Event name="ToImage Floor     Penelope_Nightmare_F 1" time="0:02" repeat="0" />
 		<!-- Vote! -->
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="CRONZERO"                     time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
