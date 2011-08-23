@@ -1,25 +1,65 @@
 <?xml version="1.0" ?>
 <Scene>
 	<CronEvents>
+		<!-- BLACK -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText info1 appear" time="0"/>
+		<Event name="ProjectedText time1 appear" time="0:01"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Doctor -->
+		<Event name="ProjectedText info1 fadeout" time="0:00"/>
+		<Event name="ProjectedText time1 fadeout" time="0:00"/>
 		<Event name="ToImage LeftWall  Doctor_L 1" time="0:02" repeat="0" />
 		<Event name="ToImage RightWall Doctor_R 1" time="0:02" repeat="0" />
 		<Event name="ToImage Floor     Doctor_F 1" time="0:02" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- End Otus -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Lineup? -->
+		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
+		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
+
+		<!-- Vote options -->
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 1 appear" time="0"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 2 appear" time="0"/>
+
+		<!-- Options fade out -->
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 1 fadeout" time="0"/>
+		<Event name="VoteOption 2 fadeout" time="0"/>
+
 	</CronEvents>
 
 	<Assets>
 		<Asset type="image" name="Doctor_L"  file="Doctor_L.png" />
 		<Asset type="image" name="Doctor_R"  file="Doctor_R.png" />
 		<Asset type="image" name="Doctor_F"  file="Doctor_F.png" />
+		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
+		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
+		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Option1" wall="left" inactive="0 0 0 " active="0 0 255" x="0" y="1500" />
-		<VoteOption text="Option2" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" />
-		<VoteOption text="Option3" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" />
+		<VoteOption text="Jason?" wall="left" inactive="255 255 255" active="0 0 255" x="0" y="1500" mode="ATA"/>
+		<VoteOption text="Penelope?" wall="left" inactive="255 255 255" active="255 0 0" x="0" y="1500" mode="ATA"/>
 	</VoteOptions>
 
 	<TextItems>
-
+		<ProjectedText id="info1"      wall="left" x="60" y="250" color=" 255 255 255">Doctor's office</ProjectedText>
+		<ProjectedText id="time1"      wall="left" x="60" y="233" color=" 255 255 255">Three months ago</ProjectedText>
 	</TextItems>
 </Scene>
