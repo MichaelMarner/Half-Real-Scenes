@@ -32,9 +32,9 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-
-		<!-- Includes P1 -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- J1 -->
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
@@ -55,7 +55,6 @@
 		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
 		<Event name="VoteOption 1 fadeout" time="0:00"/>
 		<Event name="VoteOption 2 fadeout" time="0:00"/>
-
 	</CronEvents>
 
 	<Assets>
@@ -71,8 +70,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Film?"     wall="auto" inactive="0 0 0 " active="0 0 255" x="0" y="150" mode="ATA"/>
-		<VoteOption text="Tattoo?"   wall="auto" inactive="0 0 0 " active="255 0 0" x="0" y="180" mode="ATA"/>
+		<VoteOption text="Envelope?" wall="left" inactive="0 0 0 " active="0 0 255" x="0" y="1500" mode="static"/>
+		<VoteOption text="Camera?"   wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" mode="ATA" />
 	</VoteOptions>
 
 	<TextItems>
@@ -81,6 +80,6 @@
 		<ProjectedText id="blood1"     wall="right" x="100" y="110" color=" 255 255 255">Blood Established</ProjectedText>
 		<ProjectedText id="blood2"     wall="right" x="100" y="93" color=" 255 255 255">7:45pm</ProjectedText>
 		<ProjectedText id="info2"      wall="left" x="60" y="250" color=" 255 255 255">Night of the Murder</ProjectedText>
-		<ProjectedText id="time2"      wall="left" x="60" y="233" color=" 255 255 255">7:50pm</ProjectedText>
+		<ProjectedText id="time2"      wall="left" x="60" y="233" color=" 255 255 255">7:39pm</ProjectedText>
 	</TextItems>
 </Scene>
