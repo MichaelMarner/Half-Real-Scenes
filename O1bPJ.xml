@@ -1,17 +1,6 @@
 <?xml version="1.0" ?>
 <Scene>
 	<CronEvents>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-	</CronEvents>
-
-	<Assets>
-		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />
-		<Asset type="image" name="Bathroom_R"  file="Bathroom_R.png" />
-		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
-		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
-		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
-		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
-
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
@@ -26,8 +15,8 @@
 		<!-- Back to bathroom -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  BRM_L 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToVideo RightWall BRM_R 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
 		<Event name="ProjectedText blood1 appear" time="0:00"/>
 		<Event name="ProjectedText blood2 appear" time="0:00.5"/>
@@ -59,6 +48,17 @@
 		<Event name="VoteOption 1 fadeout" time="0"/>
 		<Event name="VoteOption 2 fadeout" time="0"/>
 		<Event name="VoteOption 3 fadeout" time="0"/>
+	</CronEvents>
+
+	<Assets>
+		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />
+		<Asset type="image" name="Bathroom_R"  file="Bathroom_R.png" />
+		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
+		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
+		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
+		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
+		<Asset type="video" name="BRM_L"  file="Bathroom_Violet_L.mov" />
+		<Asset type="video" name="BRM_R"  file="Bathroom_Violet_R.mov" />
 	</Assets>
 
 	<VoteOptions>
