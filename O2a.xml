@@ -14,9 +14,9 @@
 		<!-- Alley -->
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
 		<Event name="ProjectedText time1 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  Alley_L 1" time="0:02" repeat="0" />
-		<Event name="ToImage RightWall Alley_R 1" time="0:02" repeat="0" />
-		<Event name="ToImage Floor     Alley_F 1" time="0:02" repeat="0" />
+		<Event name="ToImage LeftWall  Alley_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo RightWall Alley_R 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Alley_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 
@@ -28,14 +28,14 @@
 
 		<!-- BACK TO INTERVIEW -->
 		<Event name="ToImage LeftWall  Interview_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Interview_R 1" time="0:00" repeat="0" />
+		<Event name="ToVideo RightWall Interview2_R 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Interview_F 1" time="0:00" repeat="0" />
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Book Store -->
 		<Event name="ProjectedText info2 appear" time="0"/>
-		<Event name="ToImage LeftWall  Bookstore_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  Bookstore_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bookstore_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bookstore_F 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText info2 fadeout" time="0:03"/>
@@ -58,15 +58,15 @@
 
 	<Assets>
 		<Asset type="image" name="Alley_L"  file="Alleyway_Santiago_L.png" />
-		<Asset type="image" name="Alley_R"  file="Alleyway_Santiago_R.png" />
+		<Asset type="video" name="Alley_R"  file="Alleyway_Santiago_R.mov" />
 		<Asset type="image" name="Alley_F"  file="Alleyway_Santiago_F.png" />
 
-		<Asset type="image" name="Bookstore_L"  file="Bookstore_L.png" />
+		<Asset type="video" name="Bookstore_L"  file="Bookstore_L.mov" />
 		<Asset type="image" name="Bookstore_R"  file="Bookstore_R.png" />
 		<Asset type="image" name="Bookstore_F"  file="Bookstore_F.png" />
 
 		<Asset type="image" name="Interview_L"  file="Interview_L.png" />
-		<Asset type="image" name="Interview_R"  file="Interview_R.png" />
+		<Asset type="video" name="Interview2_R"  file="Interview_02_R.mov" />
 		<Asset type="image" name="Interview_F"  file="Interview_F.png" />
 
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />

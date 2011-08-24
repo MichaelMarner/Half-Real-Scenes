@@ -39,8 +39,7 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="video" name="Film_Set_L"  file="Film_Set_Dannypt1_L.mov" />
-		<Asset type="video" name="Film_Set_L"  file="Film_Set_Dannypt1_L.mov" />
+		<Asset type="video" name="Film_Set_L"  file="Film_Set_Danny_L.mov" />
 		<Asset type="image" name="Film_Set_R"  file="Film_Set_R.png" />
 		<Asset type="image" name="Film_Set_F"  file="Film_Set_F.png" />
 		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />

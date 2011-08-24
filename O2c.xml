@@ -14,9 +14,9 @@
 		<!-- Cemetery -->
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
 		<Event name="ProjectedText time1 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  Cemetery_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Cemetery_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Cemetery_F 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  Cemetery_L 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToVideo RightWall Cemetery_R 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToVideo Floor     Cemetery_F 1 1 0" time="0:00" repeat="0" />
 
 		<!-- Poem -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -65,7 +65,7 @@
 		<Event name="ProjectedText info2 fadeout" time="0:00"/>
 		<Event name="ProjectedText info3 fadeout" time="0:00"/>
 		<Event name="ProjectedText time2 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  Living_Room_L 3" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  Living_Room2_L 3 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Living_Room_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Living_Room_F 3" time="0:00" repeat="0" />
 
@@ -143,14 +143,14 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="image" name="Cemetery_L"  file="Cemetery_L.png" />
-		<Asset type="image" name="Cemetery_R"  file="Cemetery_R.png" />
-		<Asset type="image" name="Cemetery_F"  file="Cemetery_F.png" />
+		<Asset type="video" name="Cemetery_L"  file="Cemetery_L.mov" />
+		<Asset type="video" name="Cemetery_R"  file="Cemetery_R.mov" />
+		<Asset type="video" name="Cemetery_F"  file="Cemetery_F.mov" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
 
-		<Asset type="image" name="Living_Room_L"  file="Living_Room_L.png" />
+		<Asset type="video" name="Living_Room2_L"  file="Living_Room_02_L.mov" />
 		<Asset type="image" name="Living_Room_R"  file="Living_Room_R.png" />
 		<Asset type="image" name="Living_Room_F"  file="Living_Room_F.png" />
 	</Assets>

@@ -13,7 +13,7 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
 		<Event name="ProjectedText info2 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  Park_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  Park_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Park_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Park_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -26,7 +26,7 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Psych -->
-		<Event name="ToImage LeftWall  P_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  P2_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall P_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     P_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -47,10 +47,10 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="image" name="Park_L"  file="Park_L.png" />
+		<Asset type="video" name="Park_L"  file="Park_L.mov" />
 		<Asset type="image" name="Park_R"  file="Park_R.png" />
 		<Asset type="image" name="Park_F"  file="Park_F.png" />
-		<Asset type="image" name="P_L"  file="Psychiartrist_Office_L.png" />
+		<Asset type="video" name="P2_L"  file="Psychiartrist_Office_02_L.mov" />
 		<Asset type="image" name="P_R"  file="Psychiartrist_Office_R.png" />
 		<Asset type="image" name="P_F"  file="Psychiartrist_Office_F.png" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />

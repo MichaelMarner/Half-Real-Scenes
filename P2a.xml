@@ -64,7 +64,7 @@
 		<!-- party -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText info3 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  Party_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  Party_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Party_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Party_F 1" time="0:00" repeat="0" />
 
@@ -147,7 +147,7 @@
 		<Asset type="image" name="T_R"  file="Toilets_R.png" />
 		<Asset type="image" name="T_F"  file="Toilets_F.png" />
 
-		<Asset type="image" name="Party_L"  file="Opening_Party_L.png" />
+		<Asset type="video" name="Party_L"  file="Opening_Party_L.mov" />
 		<Asset type="image" name="Party_R"  file="Opening_Party_R.png" />
 		<Asset type="image" name="Party_F"  file="Opening_Party_F.png" />
 	</Assets>

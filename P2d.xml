@@ -30,7 +30,7 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText info3 fadeout" time="0:00"/>
 		<Event name="ProjectedText time3 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  Film_Set_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  Film_Set2_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Film_Set_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Film_Set_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -59,13 +59,16 @@
 		<Event name="VoteOption 1 fadeout" time="0"/>
 		<Event name="VoteOption 2 fadeout" time="0"/>
 
-
 	</CronEvents>
 
 	<Assets>
 		<Asset type="image" name="Hotel_L"  file="Hotel_L.png" />
 		<Asset type="image" name="Hotel_R"  file="Hotel_R.png" />
 		<Asset type="image" name="Hotel_F"  file="Hotel_F.png" />
+
+		<Asset type="video" name="Film_Set2_L"  file="Film_SetDannypt2_L.mov" />
+		<Asset type="image" name="Film_Set_R"  file="Film_Set_R.png" />
+		<Asset type="image" name="Film_Set_F"  file="Film_Set_F.png" />
 
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />

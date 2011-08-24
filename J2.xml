@@ -16,7 +16,7 @@
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
 		<Event name="ProjectedText info2 fadeout" time="0:00"/>
 		<Event name="ProjectedText time1 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  P_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  P1_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall P_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     P_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -44,7 +44,7 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="image" name="P_L"  file="Psychiartrist_Office_L.png" />
+		<Asset type="video" name="P1_L"  file="Psychiartrist_Office_01_L.png" />
 		<Asset type="image" name="P_R"  file="Psychiartrist_Office_R.png" />
 		<Asset type="image" name="P_F"  file="Psychiartrist_Office_F.png" />
 		<Asset type="image" name="DR_L"  file="Darkroom_L.png" />

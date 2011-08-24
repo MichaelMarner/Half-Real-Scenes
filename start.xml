@@ -9,8 +9,10 @@
 		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
 		<Event name="CRONZERO"                     time="0:00" repeat="0" />
 		<Event name="ProjectedText time appear"    time="0:00"/>
-		<Event name="ProjectedText vv appear"      time="0:04"/>
-		<Event name="ProjectedText drowned appear" time="0:08"/>
+		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
+		<Event name="ProjectedText vv appear"      time="0:00"/>
+		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
+		<Event name="ProjectedText drowned appear" time="0:00"/>
 
 		<!-- TO COME: Tutorial Video -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />

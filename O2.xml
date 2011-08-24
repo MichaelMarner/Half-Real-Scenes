@@ -2,27 +2,28 @@
 <Scene>
 	<CronEvents>
 		<!-- BLACK -->
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info1 appear" time="0"/>
-		<Event name="ProjectedText time1 appear" time="0:01"/>
+		<Event name="ProjectedText info1 appear" time="0:02"/>
+		<Event name="ProjectedText time1 appear" time="0:03"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Job Interview -->
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
 		<Event name="ProjectedText time1 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  Interview_L 1" time="0:02" repeat="0" />
-		<Event name="ToImage RightWall Interview_R 1" time="0:02" repeat="0" />
-		<Event name="ToImage Floor     Interview_F 1" time="0:02" repeat="0" />
+		<Event name="ToImage LeftWall  Interview_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo RightWall Interview_R 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Interview_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Vote Options -->
 		<Event name="VoteOption 1 appear" time="0:00"/>
+		<Event name="Audio Play vo_fx 0" time="0:00"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 2 appear" time="0:00"/>
+		<Event name="Audio Play vo_fx 0" time="0:00"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Lineup -->
@@ -37,16 +38,17 @@
 
 	<Assets>
 		<Asset type="image" name="Interview_L"  file="Interview_L.png" />
-		<Asset type="image" name="Interview_R"  file="Interview_R.png" />
+		<Asset type="video" name="Interview_R"  file="Interview_01_R.mov" />
 		<Asset type="image" name="Interview_F"  file="Interview_F.png" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
+		<Asset type="audio" name="vo_fx"  file="vo.mp3" />
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Real name?" wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="1500" mode="ATA" />
-		<VoteOption text="Lying?" wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="1500" mode="ATA" />
+		<VoteOption text="Real name?" wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="150" mode="ATA" />
+		<VoteOption text="Lying?" wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA" />
 	</VoteOptions>
 
 	<TextItems>

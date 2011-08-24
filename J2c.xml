@@ -14,9 +14,9 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
 		<Event name="ProjectedText info2 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  BE_L 1" time="0:02" repeat="0" />
-		<Event name="ToImage RightWall BE_R 1" time="0:02" repeat="0" />
-		<Event name="ToImage Floor     BE_F 1" time="0:02" repeat="0" />
+		<Event name="ToVideo LeftWall  BE_L 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall BE_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     BE_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- BLACK -->
@@ -27,7 +27,7 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Psych -->
-		<Event name="ToImage LeftWall  P_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  P3_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall P_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     P_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -58,10 +58,10 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="image" name="BE_L"  file="Break_Enter_L.png" />
+		<Asset type="video" name="BE_L"  file="Break_Enter_L.mov" />
 		<Asset type="image" name="BE_R"  file="Break_Enter_R.png" />
 		<Asset type="image" name="BE_F"  file="Break_Enter_F.png" />
-		<Asset type="image" name="P_L"  file="Psychiartrist_Office_L.png" />
+		<Asset type="video" name="P3_L"  file="Psychiartrist_Office_03_L.mov" />
 		<Asset type="image" name="P_R"  file="Psychiartrist_Office_R.png" />
 		<Asset type="image" name="P_F"  file="Psychiartrist_Office_F.png" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
