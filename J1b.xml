@@ -6,13 +6,13 @@
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText info appear" time="0:03"/>
 		<Event name="ProjectedText time appear" time="0:04"/>
-		<Event name="ProjectedText info fadeout" time="0:08"/>
-		<Event name="ProjectedText time fadeout" time="0:08"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  Jasons_Car_L 3" time="0:08" repeat="0" />
-		<Event name="ToImage RightWall Jasons_Car_R 3" time="0:08" repeat="0" />
-		<Event name="ToImage Floor     Jasons_Car_F 3" time="0:08" repeat="0" />
+		<Event name="ProjectedText info fadeout" time="0:00"/>
+		<Event name="ProjectedText time fadeout" time="0:00"/>
+		<Event name="ToImage LeftWall  Jasons_Car_L 3" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Jasons_Car_R 3" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Jasons_Car_F 3" time="0:00" repeat="0" />
 
 		<!-- Back to bathroom -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -21,25 +21,20 @@
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="ProjectedText info2 appear" time="0:00"/>
-		<Event name="ProjectedText time2 appear" time="0:00.5"/>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info2 fadeout" time="0:00"/>
-		<Event name="ProjectedText time2 fadeout" time="0:00.5"/>
 		<Event name="ToImage LeftWall  Bathroom_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 1"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="ProjectedText crack1 appear" time="0:00"/>
-		<Event name="VoteOption 1 appear" time="0:03"/>
-		<Event name="VoteOption 2 appear" time="0:03.5"/>
+		<Event name="ProjectedText crack2 appear" time="0:00.5"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText crack1 fadeout" time="0:00"/>
+		<Event name="ProjectedText crack2 fadeout" time="0:00.0"/>
+		<Event name="VoteOption 1 appear" time="0:00"/>
+		<Event name="VoteOption 2 appear" time="0:00.5"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 fadeout" time="0:00"/>
 		<Event name="VoteOption 2 fadeout" time="0:00"/>
-		<Event name="ProjectedText crack1 fadeout" time="0:00"/>
-		<Event name="ProjectedText crack2 fadeout" time="0:00"/>
 	</CronEvents>
 
 	<Assets>
