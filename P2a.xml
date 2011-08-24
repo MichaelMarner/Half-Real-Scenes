@@ -32,9 +32,9 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText info2 fadeout" time="0:00"/>
 		<Event name="ProjectedText time2 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  T_L 1" time="0:02" repeat="0" />
-		<Event name="ToImage RightWall T_R 1" time="0:02" repeat="0" />
-		<Event name="ToImage Floor     T_F 1" time="0:02" repeat="0" />
+		<Event name="ToImage LeftWall  Toilet_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Toilet_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     Toilet_F 1" time="0:02" repeat="0" />
 
 
 		<!-- Text Message -->
@@ -143,9 +143,9 @@
 		<Asset type="image" name="AP_R"  file="Penelopes_Apartment_R.png" />
 		<Asset type="image" name="AP_F"  file="Penelopes_Apartment_F.png" />
 
-		<Asset type="image" name="T_L"  file="Toilets_L.png" />
-		<Asset type="image" name="T_R"  file="Toilets_R.png" />
-		<Asset type="image" name="T_F"  file="Toilets_F.png" />
+		<Asset type="image" name="Toilet_L"  file="Toilets_L.png" />
+		<Asset type="image" name="Toilet_R"  file="Toilets_R.png" />
+		<Asset type="image" name="Toilet_F"  file="Toilets_F.png" />
 
 		<Asset type="video" name="Party_L"  file="Opening_Party_L.mov" />
 		<Asset type="image" name="Party_R"  file="Opening_Party_R.png" />

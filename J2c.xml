@@ -13,7 +13,7 @@
 		<!-- break enter -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
-		<Event name="ProjectedText info2 fadeout" time="0:00"/>
+		<Event name="ProjectedText time1 fadeout" time="0:00"/>
 		<Event name="ToVideo LeftWall  BE_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BE_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     BE_F 1" time="0:00" repeat="0" />
@@ -32,7 +32,11 @@
 		<Event name="ToImage Floor     P_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
+		<Event name="ProjectedText motive appear" time="0:00"/>
+
 		<!-- BLACK -->
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText motive fadeout" time="0:00"/>
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
@@ -77,5 +81,6 @@
 	<TextItems>
 		<ProjectedText id="info1"      wall="left" x="60" y="250" color=" 255 255 255">Living room of a house</ProjectedText>
 		<ProjectedText id="time1"      wall="left" x="60" y="233" color=" 255 255 255">1 year ago</ProjectedText>
+		<ProjectedText id="motive" wall="right" x="120" y="250" color="255 255 255">Possible motive established.</ProjectedText>
 	</TextItems>
 </Scene>

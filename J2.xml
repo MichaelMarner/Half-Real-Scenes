@@ -22,9 +22,9 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Dark Room -->
-		<Event name="ToImage LeftWall  DR_L 7" time="0:07" repeat="0" />
-		<Event name="ToImage RightWall DR_R 7" time="0:07" repeat="0" />
-		<Event name="ToImage Floor     DR_F 7" time="0:07" repeat="0" />
+		<Event name="ToImage LeftWall  DR_L 7" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall DR_R 7" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     DR_F 7" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 appear" time="0:07" repeat="0" />
 
@@ -44,7 +44,7 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="video" name="P1_L"  file="Psychiartrist_Office_01_L.png" />
+		<Asset type="video" name="P1_L"  file="Psychiartrist_Office_01_L.mov" />
 		<Asset type="image" name="P_R"  file="Psychiartrist_Office_R.png" />
 		<Asset type="image" name="P_F"  file="Psychiartrist_Office_F.png" />
 		<Asset type="image" name="DR_L"  file="Darkroom_L.png" />
@@ -57,7 +57,7 @@
 
 	<VoteOptions>
 		<VoteOption text="Boy?" wall="left" inactive="255 255 255" active="0 0 255" x="-90" y="145" mode="static"/>
-		<VoteOption text="Woman?" wall="left" inactive="255 255 255" active="255 0 0" x="-10" y="180" mode="static"/>
+		<VoteOption text="Blind woman?" wall="left" inactive="255 255 255" active="255 0 0" x="-10" y="180" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>

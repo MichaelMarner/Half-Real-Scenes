@@ -64,7 +64,7 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Otus"     wall="auto"  inactive="0 0 255" active="0 0 255" x="0"   y="150" mode="ATA"/>
+		<VoteOption text="Otus"     wall="auto"  inactive="0 40 180" active="0 0 255" x="0"   y="150" mode="ATA"/>
 		<VoteOption text="Jason"    wall="right" inactive="255 0 0" active="255 0 0" x="0"   y="150" mode="static"/>
 		<VoteOption text="Penelope" wall="right" inactive="0 255 0" active="0 255 0" x="200" y="150" mode="static"/>
 	</VoteOptions>

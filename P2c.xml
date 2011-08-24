@@ -69,7 +69,7 @@
 	<Assets>
 		<Asset type="image" name="Cupboard_R"  file="Cupboard_R.png" />
 
-		<Asset type="video" name="Film_Set2_L"  file="Film_SetDannypt2_L.mov" />
+		<Asset type="video" name="Film_Set2_L"  file="Film_Set_Dannypt2_L.mov" />
 		<Asset type="image" name="Film_Set_R"  file="Film_Set_R.png" />
 		<Asset type="image" name="Film_Set_F"  file="Film_Set_F.png" />
 

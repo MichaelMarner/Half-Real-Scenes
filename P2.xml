@@ -14,9 +14,7 @@
 		<!-- Limo -->
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
 		<Event name="ProjectedText time1 fadeout" time="0:00"/>
-		<Event name="ToVideo LeftWall  Limo_L 1 1 0" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Limo_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Limo_F 1" time="0:00" repeat="0" />
+		<Event name="ToVideo RightWall  Limo_R 1 1 0" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Vote Options -->
@@ -35,8 +33,7 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="video" name="Limo_L"  file="Limo_L.mov" />
-		<Asset type="image" name="Limo_R"  file="Limo_R.png" />
+		<Asset type="video" name="Limo_R"  file="Limo_L.mov" />
 		<Asset type="image" name="Limo_F"  file="Limo_F.png" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />

@@ -12,9 +12,9 @@
 		<!-- Hotel -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText time1 fadeout" time="0:00"/>
-		<Event name="ToImage RightWall Hotel_R 1" time="0:02" repeat="0" />
-		<Event name="ToImage LeftWall  Hotel_L 1" time="0:02" repeat="0" />
-		<Event name="ToImage Floor     Hotel_F 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Hotel_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Hotel_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Hotel_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- BLACK -->
@@ -66,7 +66,7 @@
 		<Asset type="image" name="Hotel_R"  file="Hotel_R.png" />
 		<Asset type="image" name="Hotel_F"  file="Hotel_F.png" />
 
-		<Asset type="video" name="Film_Set2_L"  file="Film_SetDannypt2_L.mov" />
+		<Asset type="video" name="Film_Set2_L"  file="Film_Set_Dannypt2_L.mov" />
 		<Asset type="image" name="Film_Set_R"  file="Film_Set_R.png" />
 		<Asset type="image" name="Film_Set_F"  file="Film_Set_F.png" />
 
@@ -81,6 +81,12 @@
 	</VoteOptions>
 
 	<TextItems>
+		<ProjectedText id="info1"      wall="left" x="60" y="250" color=" 255 255 255">A cupboard</ProjectedText>
 		<ProjectedText id="time1"      wall="left" x="60" y="233" color=" 255 255 255">2 hours later</ProjectedText>
+		<ProjectedText id="info2"      wall="left" x="60" y="250" color=" 255 255 255">1 hour later...</ProjectedText>
+		<ProjectedText id="time2"      wall="left" x="60" y="233" color=" 255 255 255">2 hours later</ProjectedText>
+
+		<ProjectedText id="info3"      wall="left" x="60" y="250" color=" 255 255 255">Film set</ProjectedText>
+		<ProjectedText id="time3"      wall="left" x="60" y="233" color=" 255 255 255">1 day before the murder</ProjectedText>
 	</TextItems>
 </Scene>

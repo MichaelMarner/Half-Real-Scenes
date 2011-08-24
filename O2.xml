@@ -20,10 +20,8 @@
 
 		<!-- Vote Options -->
 		<Event name="VoteOption 1 appear" time="0:00"/>
-		<Event name="Audio Play vo_fx 0" time="0:00"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 2 appear" time="0:00"/>
-		<Event name="Audio Play vo_fx 0" time="0:00"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Lineup -->
@@ -47,8 +45,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Real name?" wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="150" mode="ATA" />
-		<VoteOption text="Lying?" wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA" />
+		<VoteOption text="Real name?" wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="178" mode="ATA" />
+		<VoteOption text="Lying?"     wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="198" mode="ATA" />
 	</VoteOptions>
 
 	<TextItems>

@@ -38,7 +38,6 @@
 		<Event name="ProjectedText info2 appear" time="0:01"/>
 		<Event name="ProjectedText time2 appear" time="0:02"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 appear" time="0"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 2 appear" time="0"/>
@@ -62,9 +61,9 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Otus"     wall="auto"  inactive="0 0 255" active="0 0 255" x="0"   y="150" mode="ATA"/>
-		<VoteOption text="Jason"    wall="right" inactive="255 0 0" active="255 0 0" x="0"   y="150" mode="static"/>
-		<VoteOption text="Penelope" wall="right" inactive="0 255 0" active="0 255 0" x="200" y="150" mode="static"/>
+		<VoteOption text="Otus"     wall="auto"  inactive="0 0 255" active="0 0 255" x="0"   y="200" mode="ATAU"/>
+		<VoteOption text="Jason"    wall="right" inactive="255 0 0" active="255 0 0" x="0"   y="220" mode="ATAU"/>
+		<VoteOption text="Penelope" wall="right" inactive="0 255 0" active="0 255 0" x="200" y="180" mode="ATAU"/>
 	</VoteOptions>
 
 	<TextItems>

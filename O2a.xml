@@ -35,9 +35,9 @@
 
 		<!-- Book Store -->
 		<Event name="ProjectedText info2 appear" time="0"/>
-		<Event name="ToVideo LeftWall  Bookstore_L 1 1 0" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Bookstore_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Bookstore_F 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  Bookstore_L 5 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Bookstore_R 5" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Bookstore_F 5" time="0:00" repeat="0" />
 		<Event name="ProjectedText info2 fadeout" time="0:03"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
@@ -75,8 +75,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Dead wife?" wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="1500" mode="ATA" />
-		<VoteOption text="Nervous tick?" wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="1500" mode="ATA"/>
+		<VoteOption text="Dead wife?" wall="left" inactive="255 255 255" active="0 0 255" x="0" y="180" mode="ATA" />
+		<VoteOption text="Nervous tick?" wall="left" inactive="255 255 255" active="255 0 0" x="0" y="200" mode="ATA"/>
 	</VoteOptions>
 
 	<TextItems>

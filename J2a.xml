@@ -12,7 +12,7 @@
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
-		<Event name="ProjectedText info2 fadeout" time="0:00"/>
+		<Event name="ProjectedText time1 fadeout" time="0:00"/>
 		<Event name="ToVideo LeftWall  Park_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Park_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Park_F 1" time="0:00" repeat="0" />
@@ -59,8 +59,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Sexual pleasure?" wall="left" inactive="255 255 255" active="0 0 255" x="-90" y="150" mode="ATA"/>
-		<VoteOption text="Break and enter?" wall="left" inactive="255 255 255" active="255 0 0" x="0" y="150" mode="ATA" />
+		<VoteOption text="Sexual pleasure?" wall="right" inactive="255 255 255" active="0 0 255" x="-90" y="180" mode="ATA"/>
+		<VoteOption text="Break and enter?" wall="right" inactive="255 255 255" active="255 0 0" x="0" y="200" mode="ATA" />
 	</VoteOptions>
 
 	<TextItems>
