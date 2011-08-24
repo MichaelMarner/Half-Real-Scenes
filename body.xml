@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<Scene>
+	<CronEvents>
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:02" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:02" repeat="0" />
+		<Event name="ToColor Floor      0 0 0 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+		<Event name="ToImage LeftWall  bathroom_l 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall bathroom_r 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor bathroom_f 1" time="0:02" repeat="0" />
+		<Event name="CRONPAUSE" time="0:02" repeat="0" />
+
+
+	</CronEvents>
+
+	<VoteOptions />
+
+	<Assets>
+
+		<Asset type="image" name="bathroom_l"  file="Bathroom_L.png" />
+		<Asset type="image" name="bathroom_r"  file="Bathroom_R.png" />
+		<Asset type="image" name="bathroom_f"  file="Deadbody_F.png" />
+	</Assets>
+
+	<TextItems />
+</Scene>
