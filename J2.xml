@@ -57,7 +57,7 @@
 
 	<VoteOptions>
 		<VoteOption text="Boy?" wall="left" inactive="255 255 255" active="0 0 255" x="-90" y="145" mode="static"/>
-		<VoteOption text="Woman?" wall="left" inactive="255 255 255" active="255 0 0" x="-10" y="180" />
+		<VoteOption text="Woman?" wall="left" inactive="255 255 255" active="255 0 0" x="-10" y="180" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>
