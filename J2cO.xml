@@ -1,20 +1,83 @@
 <?xml version="1.0" ?>
 <Scene>
 	<CronEvents>
+		<!-- BLACK -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ProjectedText info1 appear" time="0:01"/>
+		<Event name="ProjectedText time1 appear" time="0:02"/>
+
+		<!-- break enter -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText info1 fadeout" time="0:00"/>
+		<Event name="ProjectedText time1 fadeout" time="0:00"/>
+		<Event name="ToVideo LeftWall  BE_L 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall BE_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     BE_F 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- BLACK -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Psych -->
+		<Event name="ToVideo LeftWall  P3_L 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall P_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     P_F 1" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<Event name="ProjectedText motive appear" time="0:00"/>
+
+		<!-- BLACK -->
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText motive fadeout" time="0:00"/>
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Lineup -->
+		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
+
+		<!-- Vote options -->
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 1 appear" time="0"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 2 appear" time="0"/>
+
+		<!-- Options fade out -->
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 1 fadeout" time="0"/>
+		<Event name="VoteOption 2 fadeout" time="0"/>
 	</CronEvents>
 
 	<Assets>
-		<Asset type="image" name="blah" file="blah.png" />
+		<Asset type="video" name="BE_L"  file="Break_Enter_L.mov" />
+		<Asset type="image" name="BE_R"  file="Break_Enter_R.png" />
+		<Asset type="image" name="BE_F"  file="Break_Enter_F.png" />
+		<Asset type="video" name="P3_L"  file="Psychiartrist_Office_03_L.mov" />
+		<Asset type="image" name="P_R"  file="Psychiartrist_Office_R.png" />
+		<Asset type="image" name="P_F"  file="Psychiartrist_Office_F.png" />
+		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
+		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
+		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Option1" wall="left" inactive="0 0 0 " active="0 0 255" x="0" y="1500" />
-		<VoteOption text="Option2" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" />
-		<VoteOption text="Option3" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" />
+		<VoteOption text="Otus?"     wall="left" inactive="255 255 255" active="0 0 255" x="0" y="180" mode="ATAU"/>
+		<VoteOption text="Jason?"    wall="right" inactive="255 0 0" active="255 0 0" x="0"   y="190" mode="ATAU"/>
 	</VoteOptions>
 
 	<TextItems>
-
+		<ProjectedText id="info1"      wall="left" x="60" y="250" color=" 255 255 255">Living room of a house</ProjectedText>
+		<ProjectedText id="time1"      wall="left" x="60" y="233" color=" 255 255 255">1 year ago</ProjectedText>
+		<ProjectedText id="motive" wall="right" x="120" y="250" color="255 255 255">Possible motive established.</ProjectedText>
 	</TextItems>
 </Scene>
