@@ -26,14 +26,15 @@
 		<Event name="ToImage RightWall Bathroom_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 1"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  BathroomW_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  BathroomW_L 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall BathroomE_R 0" time="0:00" repeat="0" />
 		<Event name="ProjectedText v1 appear" time="0:00"/>
-		<Event name="ProjectedText v2 appear" time="0:00.5"/>
+
+
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 appear" time="0:01"/>
 		<Event name="VoteOption 2 appear" time="0:01.5"/>
 		<Event name="ProjectedText v1 fadeout" time="0:00"/>
-		<Event name="ProjectedText v2 fadeout" time="0:00"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 fadeout" time="0:00"/>
 		<Event name="VoteOption 2 fadeout" time="0:00"/>
@@ -44,7 +45,8 @@
 		<Asset type="image" name="Film_Set_R"  file="Film_Set_R.png" />
 		<Asset type="image" name="Film_Set_F"  file="Film_Set_F.png" />
 		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />
-		<Asset type="image" name="BathroomW_L"  file="Bathroom_02_00000_wine_L.png" />
+		<Asset type="video" name="BathroomW_L"  file="Bathroom_Inset_Valium_L.mov" />
+		<Asset type="image" name="BathroomE_R"  file="Bathroom_blood_R.png" />
 		<Asset type="image" name="Bathroom_R"  file="Bathroom_R.png" />
 		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
@@ -61,6 +63,5 @@
 		<ProjectedText id="info"      wall="left" x="60" y="250" color=" 255 255 255">Film Set</ProjectedText>
 		<ProjectedText id="time"      wall="left" x="60" y="233" color=" 255 255 255">1 Week Before the Murder</ProjectedText>
 		<ProjectedText id="v1"     wall="left" x="-30" y="180" color=" 255 255 255">Valium Established</ProjectedText>
-		<ProjectedText id="v2"     wall="left" x="-30" y="163" color=" 255 255 255">7:53pm</ProjectedText>
 	</TextItems>
 </Scene>

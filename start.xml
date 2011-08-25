@@ -2,11 +2,10 @@
 <Scene>
 	<CronEvents>
 		<!-- TO COME: Lineup Room Sans Lines -->
-		<!-- TODO blank room -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Concrete_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Concrete_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Concrete_F 1"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
 		<Event name="CRONZERO"                     time="0:00" repeat="0" />
 		<Event name="ProjectedText time appear"    time="0:00"/>
@@ -15,15 +14,17 @@
 		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
 		<Event name="ProjectedText drowned appear" time="0:00"/>
 
-		<!-- TO COME: Tutorial Video -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText vv fadeout" time="0"/>
 		<Event name="ProjectedText drowned fadeout" time="0"/>
 		<Event name="ProjectedText time fadeout" time="0"/>
+		<Event name="ToVideo LeftWall Instructions_L 2 1 0"     time="0:00" repeat="0" />
 
 		<!-- Vote options appear -->
-		<!-- TODO go to lineup -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Lineup_F 1"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 appear" time="0"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -38,13 +39,10 @@
 		<Event name="VoteOption 3 fadeout" time="0"/>
 
 		<!-- TO COME: Words Montage same cue as above -->
-		
-		<!-- fade out video -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
-
+		<Event name="ToVideo LeftWall  Words_L 2 1 0"     time="0:00" repeat="0" />
+		<Event name="ToVideo RightWall Words_R 2 1 0"     time="0:00" repeat="0" />
+		
 
 
 	</CronEvents>
@@ -53,6 +51,15 @@
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
+
+		<Asset type="image" name="Concrete_L"  file="Concrete_Room_L.png" />
+		<Asset type="image" name="Concrete_R"  file="Concrete_Room_R.png" />
+		<Asset type="image" name="Concrete_F"  file="Concrete_Room_F.png" />
+
+		<Asset type="video" name="Instructions_L"  file="Instructional_L.mov" />
+
+		<Asset type="video" name="Words_L"  file="Word_Map_L.mov" />
+		<Asset type="video" name="Words_R"  file="Word_Map_R.mov" />
 	</Assets>
 
 	<VoteOptions>
