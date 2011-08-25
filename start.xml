@@ -28,9 +28,9 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 appear" time="0"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 3 appear" time="0"/>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 2 appear" time="0"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 appear" time="0"/>
 
 		<!-- Voting Complete -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -65,7 +65,7 @@
 	<VoteOptions>
 		<VoteOption text="Otus?"     wall="left"  inactive="0 0 255" active="0 0 255" x="0"   y="180" mode="ATAU"/>
 		<VoteOption text="Jason?"    wall="right" inactive="255 0 0" active="255 0 0" x="0"   y="190" mode="ATAU"/>
-		<VoteOption text="Penelope?" wall="right" inactive="0 255 0" active="0 255 0" x="-200" y="170" mode="ATAU"/>
+		<VoteOption text="Penelope?" wall="right" inactive="0 255 0" active="0 255 0" x="-170" y="170" mode="ATAU"/>
 	</VoteOptions>
 
 	<TextItems>
