@@ -42,9 +42,9 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Option1" wall="left" inactive="0 0 0 " active="255 255 255" x="-90" y="145" />
-		<VoteOption text="Option2" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" />
-		<VoteOption text="Option3" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" />
+		<VoteOption text="Option1" wall="left" inactive="0 0 0 " active="255 255 255" x="-90" y="145" mode="static"/>
+		<VoteOption text="Option2" wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" mode="static"/>
+		<VoteOption text="Option3" wall="left" inactive="0 0 0 " active="0 255 0" x="0" y="1500" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>
