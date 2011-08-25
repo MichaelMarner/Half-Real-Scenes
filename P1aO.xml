@@ -6,11 +6,13 @@
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText info appear" time="0:03"/>
 		<Event name="ProjectedText time appear" time="0:04"/>
-		<Event name="ProjectedText info fadeout" time="0:08"/>
-		<Event name="ProjectedText time fadeout" time="0:08"/>
-		<Event name="ToVideo LeftWall  Film_Set_L 1 0" time="0:08" repeat="0" />
-		<Event name="ToImage RightWall Film_Set_R 1" time="0:08" repeat="0" />
-		<Event name="ToImage Floor     Film_Set_F 1" time="0:08" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
+		<Event name="ProjectedText info fadeout" time="0:00"/>
+		<Event name="ProjectedText time fadeout" time="0:00"/>
+		<Event name="ToVideo LeftWall  Film_Set_L 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Film_Set_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Film_Set_F 1" time="0:00" repeat="0" />
 
 
 		<!-- Back to bathroom -->
@@ -24,33 +26,26 @@
 		<Event name="ToImage RightWall Bathroom_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 1"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  BathroomW_L 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  BathroomW_L 1 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall BathroomE_R 0" time="0:00" repeat="0" />
 		<Event name="ProjectedText v1 appear" time="0:00"/>
-		<Event name="ProjectedText v2 appear" time="0:00.5"/>
-		<Event name="VoteOption 1 appear" time="0:01"/>
-		<Event name="VoteOption 2 appear" time="0:01.5"/>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 1 fadeout" time="0:00"/>
-		<Event name="VoteOption 2 fadeout" time="0:00"/>
-		<Event name="ProjectedText v1 fadeout" time="0:00"/>
-		<Event name="ProjectedText v2 fadeout" time="0:00"/>
 
-		<!-- Transition to black because we're combining 2 scenes -->
-		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText v1 fadeout" time="0:00"/>
+		<Event name="VoteOption 3 appear" time="0:00"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 fadeout" time="0:00"/>
 
 		<!-- J1 -->
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="ProjectedText info2 appear" time="0"/>
-		<Event name="ProjectedText time2 appear" time="0:01"/>
-		<Event name="ProjectedText info2 fadeout" time="0:05"/>
-		<Event name="ProjectedText time2 fadeout" time="0:05"/>
+		<Event name="ProjectedText jinfo appear" time="0"/>
+		<Event name="ProjectedText jtime appear" time="0:01"/>
+		<Event name="ProjectedText jinfo fadeout" time="0:05"/>
+		<Event name="ProjectedText jtime fadeout" time="0:05"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 appear" time="0:00"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -65,29 +60,30 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="video" name="Film_Set_L"  file="Film_Set_Dannypt1_L.mov" />
+		<Asset type="video" name="Film_Set_L"  file="Film_Set_Danny_L.mov" />
 		<Asset type="image" name="Film_Set_R"  file="Film_Set_R.png" />
 		<Asset type="image" name="Film_Set_F"  file="Film_Set_F.png" />
 		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />
+		<Asset type="video" name="BathroomW_L"  file="Bathroom_Inset_Valium_L.mov" />
+		<Asset type="image" name="BathroomE_R"  file="Bathroom_blood_R.png" />
 		<Asset type="image" name="Bathroom_R"  file="Bathroom_R.png" />
 		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
-		<Asset type="image" name="BathroomW_L"  file="Bathroom_02_00000_wine_L.png" />
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Envelope?" wall="left" inactive="0 0 0 " active="0 0 255" x="0" y="1500" mode="static"/>
-		<VoteOption text="Camera?"   wall="left" inactive="0 0 0 " active="255 0 0" x="0" y="1500" mode="ATA" />
+		<VoteOption text="Envelope?" wall="left" inactive="255 255 255" active="0 0 255" x="50" y="90" mode="static"/>
+		<VoteOption text="Camera?"   wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA" />
+		<VoteOption text="Crack"  wall="left"  inactive="0 0 255" active="0 0 255" x="60" y="120"  mode="static"/>
 	</VoteOptions>
 
 	<TextItems>
 		<ProjectedText id="info"      wall="left" x="60" y="250" color=" 255 255 255">Film Set</ProjectedText>
 		<ProjectedText id="time"      wall="left" x="60" y="233" color=" 255 255 255">1 Week Before the Murder</ProjectedText>
-		<ProjectedText id="v1"     wall="left" x="-70" y="180" color=" 255 255 255">Valium Established</ProjectedText>
-		<ProjectedText id="v2"     wall="left" x="-70" y="163" color=" 255 255 255">7:53pm</ProjectedText>
-		<ProjectedText id="info2"      wall="left" x="60" y="250" color=" 255 255 255">Night of the Murder</ProjectedText>
-		<ProjectedText id="time2"      wall="left" x="60" y="233" color=" 255 255 255">7:39pm</ProjectedText>
+		<ProjectedText id="v1"     wall="left" x="-30" y="180" color=" 255 255 255">Valium Established</ProjectedText>
+		<ProjectedText id="jinfo"      wall="left" x="60" y="250" color=" 255 255 255">Night of the Murder</ProjectedText>
+		<ProjectedText id="jtime"      wall="left" x="60" y="233" color=" 255 255 255">7:39pm</ProjectedText>
 	</TextItems>
 </Scene>

@@ -4,6 +4,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText info appear" time="0:03"/>
 		<Event name="ProjectedText time appear" time="0:04"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -12,6 +13,7 @@
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   Bathroom_C 3" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
 
@@ -21,6 +23,7 @@
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   Bathroom_C 3" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToVideo LeftWall  BRM_L 2 1 0" time="0:00" repeat="0" />
 		<Event name="ToVideo RightWall BRM_R 2 1 0" time="0:00" repeat="0" />
@@ -50,6 +53,7 @@
 
 		<Asset type="image" name="BathroomE_L"  file="Bathroom_wine_crack_L.png" />
 		<Asset type="video" name="Inset_R"  file="Bathroom_Inset_Blood_R.mov" />
+		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
 	</Assets>
 
 	<VoteOptions>

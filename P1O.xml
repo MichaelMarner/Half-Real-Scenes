@@ -4,8 +4,6 @@
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="ProjectedText info appear" time="0"/>
 		<Event name="ProjectedText time appear" time="0:01"/>
 		<Event name="ProjectedText info fadeout" time="0:05"/>
@@ -33,8 +31,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Film?"     wall="auto" inactive="0 0 0 " active="0 0 255" x="0" y="150" mode="ATA"/>
-		<VoteOption text="Tattoo?"   wall="auto" inactive="0 0 0 " active="255 0 0" x="0" y="180" mode="ATA"/>
+		<VoteOption text="Film?"     wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="150" mode="ATA"/>
+		<VoteOption text="Tattoo?"   wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA"/>
 	</VoteOptions>
 
 	<TextItems>
