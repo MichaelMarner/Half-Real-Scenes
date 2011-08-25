@@ -33,12 +33,22 @@
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 
+
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  House_Exterior_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall House_Exterior_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     House_Exterior_F 1" time="0:02" repeat="0" />
+
 	</CronEvents>
 
 	<Assets>
 		<Asset type="image" name="House_Exterior_L"  file="House_Exterior_L.png" />
 		<Asset type="image" name="House_Exterior_R"  file="House_Exterior_R.png" />
 		<Asset type="image" name="House_Exterior_F"  file="House_Exterior_F.png" />
+
+		<Asset type="image" name="L_L"  file="Lineup_white_L.png" />
+		<Asset type="image" name="L_R"  file="Lineup_white_R.png" />
+		<Asset type="image" name="L_F"  file="Lineup_white_F.png" />
 	</Assets>
 
 	<VoteOptions>
