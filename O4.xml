@@ -5,10 +5,8 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info1 appear" time="0"/>
-		<Event name="ProjectedText time1 appear" time="0:01"/>
+		<Event name="ProjectedText info1 appear" time="0:02"/>
+		<Event name="ProjectedText time1 appear" time="0:03"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Bathroom -->
@@ -29,6 +27,7 @@
 
 		<Event name="ProjectedText info2 fadeout" time="0:05"/>
 		<Event name="ProjectedText time2 fadeout" time="0:05"/>
+
 		<!-- TO COME: CAR -->
 		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
@@ -49,6 +48,11 @@
 		<Event name="ToImage LeftWall  LR_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall LR_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     LR_F 1" time="0:00" repeat="0" />
+
+		<Event name="CRONZERO" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText time4 appear" time="0:00"/>
+		<Event name="ProjectedText time4 fadeout" time="0:05"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Black -->
@@ -61,7 +65,8 @@
 
 		<Event name="ProjectedText info4 fadeout" time="0:00"/>
 		<Event name="ProjectedText time4 fadeout" time="0:00"/>
-		<!-- Living Room -->
+
+		<!-- bathroom -->
 		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     BR_F 1" time="0:00" repeat="0" />
@@ -104,6 +109,8 @@
 
 		<ProjectedText id="info3"      wall="left" x="60" y="250" color=" 255 255 255">Violet's living room</ProjectedText>
 		<ProjectedText id="time3"      wall="left" x="60" y="233" color=" 255 255 255">7:56pm</ProjectedText>
+
+		<ProjectedText id="time5"      wall="left" x="60" y="250" color=" 255 255 255">7:57pm</ProjectedText>
 
 		<ProjectedText id="info4"      wall="left" x="60" y="250" color=" 255 255 255">Violet's bathroom</ProjectedText>
 		<ProjectedText id="time4"      wall="left" x="60" y="233" color=" 255 255 255">8:00pm</ProjectedText>

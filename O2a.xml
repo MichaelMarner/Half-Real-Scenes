@@ -5,10 +5,8 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info1 appear" time="0"/>
-		<Event name="ProjectedText time1 appear" time="0:01"/>
+		<Event name="ProjectedText info1 appear" time="2"/>
+		<Event name="ProjectedText time1 appear" time="0:03"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Alley -->
@@ -34,12 +32,15 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Book Store -->
-		<Event name="ProjectedText info2 appear" time="0"/>
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToVideo LeftWall  Bookstore_L 5 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bookstore_R 5" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bookstore_F 5" time="0:00" repeat="0" />
-		<Event name="ProjectedText info2 fadeout" time="0:03"/>
+		<Event name="ProjectedText info2 appear" time="3"/>
+		<Event name="ProjectedText info2 fadeout" time="0:06"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
 
 		<!-- Vote Options -->
 		<Event name="VoteOption 1 appear" time="0:00"/>

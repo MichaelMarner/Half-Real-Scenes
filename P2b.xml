@@ -5,10 +5,8 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info1 appear" time="0"/>
-		<Event name="ProjectedText time1 appear" time="0:02"/>
+		<Event name="ProjectedText info1 appear" time="0:02"/>
+		<Event name="ProjectedText time1 appear" time="0:03"/>
 
 		<!-- drug alley -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -23,10 +21,8 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info2 appear" time="0"/>
-		<Event name="ProjectedText time2 appear" time="0:02"/>
+		<Event name="ProjectedText info2 appear" time="0:02"/>
+		<Event name="ProjectedText time2 appear" time="0:03"/>
 
 		<!-- toilets -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -51,7 +47,6 @@
 
 		<Event name="ProjectedText msg3 fadeout" time="0:12"/>
 		<Event name="ProjectedText msg4 fadeout" time="0:13"/>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- party -->
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
@@ -60,7 +55,7 @@
 		<Event name="ToImage RightWall Party_R 5" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Party_F 5" time="0:00" repeat="0" />
 		<Event name="ProjectedText info3 appear" time="0:02"/>
-		<Event name="ProjectedText info3 fadeout" time="0:05"/>
+		<Event name="ProjectedText info3 fadeout" time="0:07"/>
 
 		<!-- Stupid damn text message -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -149,8 +144,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Hide and seek?" wall="auto" inactive="255 255 255" active="255 255 255" x="-90" y="160" mode="ATA"/>
-		<VoteOption text="Hotel room?"    wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="160" mode="ATA"/>
+		<VoteOption text="Hide and seek?" wall="right" inactive="255 255 255" active="0 0 255" x="-90" y="180" mode="ATA"/>
+		<VoteOption text="Hotel room?"    wall="right" inactive="255 255 255" active="255 0 0" x="0" y="200" mode="ATA"/>
 	</VoteOptions>
 
 	<TextItems>
@@ -160,7 +155,7 @@
 		<ProjectedText id="info2"      wall="left" x="60" y="250" color=" 255 255 255">After party of Violet's film</ProjectedText>
 		<ProjectedText id="time2"      wall="left" x="60" y="233" color=" 255 255 255">11:30pm</ProjectedText>
 
-		<ProjectedText id="info3"      wall="left" x="60" y="250" color=" 255 255 255">30 minutes later</ProjectedText>
+		<ProjectedText id="info3"      wall="left" x="120" y="250" color=" 255 255 255">30 minutes later</ProjectedText>
 
 		<ProjectedText id="msg1"      wall="left" x="60" y="250" color=" 255 255 255">I've been watching you all night.</ProjectedText>
 		<ProjectedText id="msg2"      wall="left" x="60" y="233" color=" 255 255 255">I'm going to hurt you.</ProjectedText>

@@ -5,10 +5,8 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info1 appear" time="0"/>
-		<Event name="ProjectedText time1 appear" time="0:01"/>
+		<Event name="ProjectedText info1 appear" time="2"/>
+		<Event name="ProjectedText time1 appear" time="0:03"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Cemetery -->
@@ -71,6 +69,10 @@
 
 		<!-- subtitles -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText chap1 appear" time="0:00"/>
+
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText chap1 fadeout" time="0:00"/>
 		<Event name="ProjectedText sub1 appear" time="0:00"/>
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -116,8 +118,12 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText sub11 fadeout" time="0:00"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText motive appear" time="0:00"/>
 
 		<!-- BLACK -->
+
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ProjectedText motive fadeout" time="0:00"/>
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
@@ -128,7 +134,6 @@
 		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
-		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
 
 		<!-- Vote options -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -177,6 +182,7 @@
 		<ProjectedText id="info3"      wall="left" x="60" y="233" color=" 255 255 255">Night of the murder</ProjectedText>
 		<ProjectedText id="time2"      wall="left" x="60" y="216" color=" 255 255 255">7:30pm</ProjectedText>
 
+		<ProjectedText id="chap1" wall="left" x="60" y="250" color="255 255 255">Chapter 4. The Laundry.</ProjectedText>
 		<ProjectedText id="sub1" wall="left" x="60" y="250" color="255 255 255">I could hear footsteps...</ProjectedText>
 		<ProjectedText id="sub2" wall="left" x="60" y="250" color="255 255 255">shouts and screams...</ProjectedText>
 		<ProjectedText id="sub3" wall="left" x="60" y="250" color="255 255 255">Hercules Mendez stripped her naked.</ProjectedText>
@@ -188,6 +194,8 @@
 		<ProjectedText id="sub9" wall="left" x="60" y="250" color="255 255 255">They dumped her into the bath.</ProjectedText>
 		<ProjectedText id="sub10" wall="left" x="60" y="250" color="255 255 255">Get your wife to...</ProjectedText>
 		<ProjectedText id="sub11" wall="left" x="60" y="250" color="255 255 255">write that up in the newspapers.</ProjectedText>
+
+		<ProjectedText id="motive" wall="right" x="60" y="250" color="255 255 255">Possible motive established.</ProjectedText>
 	</TextItems>
 </Scene>
 

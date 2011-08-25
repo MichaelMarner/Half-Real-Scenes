@@ -45,8 +45,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Real name?" wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="178" mode="ATA" />
-		<VoteOption text="Lying?"     wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="198" mode="ATA" />
+		<VoteOption text="Real name?" wall="right" inactive="255 255 255" active="0 0 255" x="0" y="178" mode="ATA" />
+		<VoteOption text="Lying?"     wall="right" inactive="255 255 255" active="255 0 0" x="0" y="198" mode="ATA" />
 	</VoteOptions>
 
 	<TextItems>

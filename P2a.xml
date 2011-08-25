@@ -5,10 +5,8 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info1 appear" time="0"/>
-		<Event name="ProjectedText time1 appear" time="0:02"/>
+		<Event name="ProjectedText info1 appear" time="0:02"/>
+		<Event name="ProjectedText time1 appear" time="0:03"/>
 
 		<!-- apartment -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -17,16 +15,16 @@
 		<Event name="ToImage LeftWall  AP_L 1" time="0:02" repeat="0" />
 		<Event name="ToImage RightWall AP_R 1" time="0:02" repeat="0" />
 		<Event name="ToImage Floor     AP_F 1" time="0:02" repeat="0" />
+
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- BLACK -->
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info2 appear" time="0"/>
-		<Event name="ProjectedText time2 appear" time="0:02"/>
+		<Event name="ProjectedText info2 appear" time="0:02"/>
+		<Event name="ProjectedText time2 appear" time="0:03"/>
 
 		<!-- toilets -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -36,37 +34,33 @@
 		<Event name="ToImage RightWall Toilet_R 1" time="0:02" repeat="0" />
 		<Event name="ToImage Floor     Toilet_F 1" time="0:02" repeat="0" />
 
-
 		<!-- Text Message -->
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText msg1 appear" time="0:00"/>
-		<Event name="ProjectedText msg2 appear" time="0:01"/>
+		<Event name="ProjectedText msg2 appear" time="0:02"/>
 
-		<Event name="ProjectedText msg1 fadeout" time="0:04"/>
-		<Event name="ProjectedText msg2 fadeout" time="0:04"/>
+		<Event name="ProjectedText msg1 fadeout" time="0:05"/>
+		<Event name="ProjectedText msg2 fadeout" time="0:06"/>
 
-		<Event name="ProjectedText msg3 appear" time="0:04"/>
-		<Event name="ProjectedText msg4 appear" time="0:05"/>
+		<Event name="ProjectedText msg3 appear" time="0:07"/>
+		<Event name="ProjectedText msg4 appear" time="0:09"/>
 
-		<Event name="ProjectedText msg3 fadeout" time="0:8"/>
-		<Event name="ProjectedText msg4 fadeout" time="0:8"/>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-
-		<!-- BLACK -->
-		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ProjectedText msg3 fadeout" time="0:12"/>
+		<Event name="ProjectedText msg4 fadeout" time="0:13"/>
+		
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info3 appear" time="0"/>
 
 		<!-- party -->
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info3 fadeout" time="0:00"/>
-		<Event name="ToVideo LeftWall  Party_L 1 1 0" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Party_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Party_F 1" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  Party_L 5 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Party_R 5" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Party_F 5" time="0:00" repeat="0" />
+		<Event name="ProjectedText info3 appear" time="0:02"/>
+		<Event name="ProjectedText info3 fadeout" time="0:05"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
 
 		<!-- Stupid damn text message -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -123,6 +117,7 @@
 		<Event name="ProjectedText pmsg7 fadeout" time="0:00"/>
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
 		<!-- Vote Options -->
 		<Event name="VoteOption 1 appear" time="0:00"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -150,11 +145,15 @@
 		<Asset type="video" name="Party_L"  file="Opening_Party_L.mov" />
 		<Asset type="image" name="Party_R"  file="Opening_Party_R.png" />
 		<Asset type="image" name="Party_F"  file="Opening_Party_F.png" />
+
+		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
+		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
+		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Hide and seek?" wall="auto" inactive="255 255 255" active="255 255 255" x="-90" y="160" mode="ATA"/>
-		<VoteOption text="Hotel room?"    wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="160" mode="ATA"/>
+		<VoteOption text="Hide and seek?" wall="right" inactive="255 255 255" active="0 0 255" x="-90" y="180" mode="ATA"/>
+		<VoteOption text="Hotel room?"    wall="right" inactive="255 255 255" active="255 0 0" x="0" y="200" mode="ATA"/>
 	</VoteOptions>
 
 	<TextItems>

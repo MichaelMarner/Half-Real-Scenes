@@ -2,17 +2,16 @@
 <Scene>
 	<CronEvents>
 		<!-- BLACK -->
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info1 appear" time="0"/>
-		<Event name="ProjectedText info2 appear" time="0:01"/>
-		<Event name="ProjectedText time1 appear" time="0:02"/>
+		<Event name="ProjectedText info1 appear" time="0:02"/>
+		<Event name="ProjectedText info2 appear" time="0:03"/>
+		<Event name="ProjectedText time1 appear" time="0:04"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
-		<!-- Psych -->
+		<!-- Job Interview -->
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
 		<Event name="ProjectedText info2 fadeout" time="0:00"/>
 		<Event name="ProjectedText time1 fadeout" time="0:00"/>
@@ -26,7 +25,6 @@
 		<Event name="ToImage RightWall DR_R 7" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     DR_F 7" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 1 appear" time="0:07" repeat="0" />
 
 		<!-- Vote Options -->
 		<Event name="VoteOption 1 appear" time="0:00"/>
@@ -56,8 +54,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Boy?" wall="left" inactive="255 255 255" active="0 0 255" x="-90" y="145" mode="static"/>
-		<VoteOption text="Blind woman?" wall="left" inactive="255 255 255" active="255 0 0" x="-10" y="180" mode="static"/>
+		<VoteOption text="Boy?" wall="left" inactive="255 255 255" active="0 0 255" x="-90" y="151" mode="static"/>
+		<VoteOption text="Blind woman?" wall="left" inactive="255 255 255" active="255 0 0" x="-10" y="185" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>

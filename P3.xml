@@ -5,9 +5,16 @@
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Penelope_Nightmare_R 1" time="0:02" repeat="0" />
-		<Event name="ToImage LeftWall  Penelope_Nightmare_L 1" time="0:02" repeat="0" />
-		<Event name="ToImage Floor     Penelope_Nightmare_F 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall Penelope_Nightmare_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Penelope_Nightmare_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Penelope_Nightmare_F 1" time="0:00" repeat="0" />
+
+		<!-- To Black -->
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToColor LeftWall  0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 0.2" time="0:00" repeat="0" />
+
 		<!-- Vote! -->
 		<Event name="CRONZERO"                     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
