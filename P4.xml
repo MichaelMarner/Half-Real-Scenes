@@ -25,8 +25,10 @@
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText info2 appear" time="0:02"/>
 		<Event name="ProjectedText time2 appear" time="0:02.5"/>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
+		<!-- TODO Add toilet -->
+
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText info2 fadeout" time="0:00"/>
 		<Event name="ProjectedText time2 fadeout" time="0:00"/>
 		<Event name="ToImage LeftWall  Outside_L 1" time="0:00" repeat="0" />
@@ -46,9 +48,9 @@
 		<Event name="ProjectedText time3 fadeout" time="0:05"/>
 
 		<!-- Outside BathRoom -->
-		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     BR_F 1" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Outside_Bathroom_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Outside_Bathroom_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Outside_Bathroom_F 1" time="0:00" repeat="0" />
 
 		<!-- Black -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -66,11 +68,9 @@
 		<Asset type="image" name="Outside_R"  file="House_Exterior_R.png" />
 		<Asset type="image" name="Outside_F"  file="House_Exterior_F.png" />
 
-		<!-- 
-		<Asset type="image" name="Outide_Bathroom_L"  file="Outside_Bathroom_L.png" />
-		<Asset type="image" name="Outide_Bathroom_R"  file="Outside_Bathroom_R.png" />
-		<Asset type="image" name="Outide_Bathroom_F"  file="Outside_Bathroom_F.png" />
-		-->
+		<Asset type="image" name="Outide_Bathroom_L"  file="Outside_Bathroom_Blackout_L.png" />
+		<Asset type="image" name="Outide_Bathroom_R"  file="Outside_Bathroom_Blackout_R.png" />
+		<Asset type="image" name="Outide_Bathroom_F"  file="Outside_Bathroom_Blackout_F.png" />
 	</Assets>
 
 	<VoteOptions>

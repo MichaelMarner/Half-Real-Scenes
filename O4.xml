@@ -29,9 +29,7 @@
 		<Event name="ProjectedText time2 fadeout" time="0:05"/>
 
 		<!-- TO COME: CAR -->
-		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     BR_F 1" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Otus_Car_L 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Black -->
@@ -44,10 +42,11 @@
 
 		<Event name="ProjectedText info2 fadeout" time="0:05"/>
 		<Event name="ProjectedText time2 fadeout" time="0:05"/>
+
 		<!-- Living Room -->
-		<Event name="ToImage LeftWall  LR_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall LR_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     LR_F 1" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  LRB_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall LRB_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     LRB_F 1" time="0:00" repeat="0" />
 
 		<Event name="CRONZERO" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -67,9 +66,9 @@
 		<Event name="ProjectedText time4 fadeout" time="0:00"/>
 
 		<!-- bathroom -->
-		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     BR_F 1" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  BRB_L 1" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall BRB_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     BRB_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Black -->
@@ -81,17 +80,19 @@
 	</CronEvents>
 
 	<Assets>
+		<Asset type="image" name="BRB_L"  file="Bathroom_Blackout_L.png" />
+		<Asset type="image" name="BRB_R"  file="Bathroom_Blackout_R.png" />
+		<Asset type="image" name="BRB_F"  file="Bathroom_Blackout_F.png" />
+
 		<Asset type="image" name="BR_L"  file="Bathroom_L.png" />
 		<Asset type="image" name="BR_R"  file="Bathroom_R.png" />
 		<Asset type="image" name="BR_F"  file="Bathroom_F.png" />
 
-		<Asset type="image" name="Otus_CAR_L"  file="Bathroom_L.png" />
-		<Asset type="image" name="Otus_CAR_R"  file="Bathroom_R.png" />
-		<Asset type="image" name="Otus_CAR_F"  file="Bathroom_F.png" />
+		<Asset type="image" name="Otus_CAR_L"  file="Otus_Car_L.png" />
 
-		<Asset type="image" name="LR_L"  file="Living_Room_L.png" />
-		<Asset type="image" name="LR_R"  file="Living_Room_R.png" />
-		<Asset type="image" name="LR_F"  file="Living_Room_F.png" />
+		<Asset type="image" name="LRB_L"  file="Living_Room_Blackout_L.png" />
+		<Asset type="image" name="LRB_R"  file="Living_Room_Blackout_R.png" />
+		<Asset type="image" name="LRB_F"  file="Living_Room_Blackout_F.png" />
 	</Assets>
 
 	<VoteOptions>
