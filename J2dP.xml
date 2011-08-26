@@ -71,8 +71,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Jason?"    wall="right" inactive="255 0 0" active="255 0 0" x="0"   y="190" mode="ATAU"/>
-		<VoteOption text="Penelope?" wall="right" inactive="255 255 255" active="255 0 0" x="0" y="200" mode="ATAU"/>
+		<VoteOption text="Jason?"     wall="left"  inactive="255 255 255" active="0 0 255" x="-60" y="170" mode="ANLU -70 180"/>
+		<VoteOption text="Penelope?"    wall="right" inactive="255 255 255" active="255 0 0" x="-100"   y="185" mode="ANLU -180 -50"/>
 	</VoteOptions>
 
 	<TextItems>

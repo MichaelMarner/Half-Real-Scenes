@@ -54,8 +54,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Boy?" wall="left" inactive="255 255 255" active="0 0 255" x="-90" y="151" mode="static"/>
-		<VoteOption text="Blind woman?" wall="left" inactive="255 255 255" active="255 0 0" x="-10" y="185" mode="static"/>
+		<VoteOption text="Boy?" wall="right" inactive="255 255 255" active="0 0 255" x="-12" y="190" mode="static"/>
+		<VoteOption text="Blind woman?" wall="left" inactive="255 255 255" active="255 0 0" x="18" y="170" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>

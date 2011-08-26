@@ -39,8 +39,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Pink pyjamas?" wall="right" inactive="255 255 255" active="0 0 255" x="85" y="148" mode="ATA"/>
-		<VoteOption text="Drugs?"        wall="right" inactive="255 255 255" active="255 0 0" x="85" y="180" mode="ATA"/>
+		<VoteOption text="Pink pyjamas?" wall="right" inactive="255 255 255" active="0 0 255" x="85" y="190" mode="ATA"/>
+		<VoteOption text="Drugs?"        wall="right" inactive="255 255 255" active="255 0 0" x="85" y="220" mode="ATA"/>
 	</VoteOptions>
 
 	<TextItems>

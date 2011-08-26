@@ -73,7 +73,7 @@
 	<VoteOptions>
 		<VoteOption text="Photo?"     wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="150" mode="ATA"/>
 		<VoteOption text="Translate?" wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA"/>
-		<VoteOption text="Crack"  wall="left"  inactive="0 0 255" active="0 0 255" x="60" y="120"  mode="static"/>
+		<VoteOption text="Blood?"  wall="right" inactive="255 255 255" active="255 0 0" x="80" y="100" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>

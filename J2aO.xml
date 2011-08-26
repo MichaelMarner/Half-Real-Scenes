@@ -57,8 +57,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Break and enter?" wall="left" inactive="255 255 255" active="0 0 255" x="-90" y="180" mode="ATA"/>
-		<VoteOption text="Sexual pleasure?" wall="right" inactive="255 255 255" active="255 0 0" x="0" y="200" mode="ATA" />
+		<VoteOption text="Break and enter?" wall="left" inactive="255 255 255" active="0 0 255" x="-90" y="190" mode="ATA"/>
+		<VoteOption text="Sexual pleasure?" wall="right" inactive="255 255 255" active="255 0 0" x="0"  y="220" mode="ATA" />
 	</VoteOptions>
 
 	<TextItems>

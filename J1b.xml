@@ -55,8 +55,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Blood?"  wall="right" inactive="255 255 255" active="0 0 255" x="100" y="110" mode="static"/>
-		<VoteOption text="Valium?" wall="left"  inactive="255 255 255" active="255 0 0" x="-70" y="180" mode="static"/>
+		<VoteOption text="Blood?"  wall="right" inactive="255 255 255" active="255 0 0" x="80" y="100" mode="static"/>
+		<VoteOption text="Valium?" wall="left"  inactive="255 255 255" active="0 255 0" x="-78" y="190" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>

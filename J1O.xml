@@ -32,8 +32,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Envelope?" wall="left" inactive="255 255 255" active="0 0 255" x="50" y="90" mode="static"/>
-		<VoteOption text="Camera?"   wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA" />
+		<VoteOption text="Envelope?" wall="left" inactive="255 255 255" active="0 0 255" x="50" y="60" mode="static"/>
+		<VoteOption text="Camera?"   wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="190" mode="ATA" />
 	</VoteOptions>
 
 	<TextItems>
