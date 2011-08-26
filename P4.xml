@@ -62,6 +62,7 @@
 		<Event name="ToColor Floor     0 0 0 4" time="0:00" repeat="0" />
 		<Event name="ToColor Cabinet 0 0 0 4 0"     time="0:00" repeat="0" />
 
+		<!-- White lineup -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  L_L 1" time="0:02" repeat="0" />
 		<Event name="ToImage RightWall L_R 1" time="0:02" repeat="0" />
@@ -81,6 +82,7 @@
 		<Asset type="image" name="Outside_L"  file="House_Exterior_L.png" />
 		<Asset type="image" name="Outside_R"  file="House_Exterior_R.png" />
 		<Asset type="image" name="Outside_F"  file="House_Exterior_F.png" />
+		<Asset type="image" name="House_Exterior_C"  file="House_Exterior_Cabinet.png" />
 
 		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
 		<Asset type="image" name="Outside_Bathroom_L"  file="Outside_Bathroom_Blackout_L.png" />
