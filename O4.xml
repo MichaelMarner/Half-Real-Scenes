@@ -15,6 +15,10 @@
 		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     BR_F 1" time="0:00" repeat="0" />
+
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToVideo RightWall BRV_R 2" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  BRV_L 2" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Black -->
@@ -93,6 +97,9 @@
 		<Asset type="image" name="BR_L"  file="Bathroom_L.png" />
 		<Asset type="image" name="BR_R"  file="Bathroom_R.png" />
 		<Asset type="image" name="BR_F"  file="Bathroom_F.png" />
+
+		<Asset type="video" name="BRV_L"  file="Bathroom_Violet_L.mov" />
+		<Asset type="video" name="BRV_R"  file="Bathroom_Violet_R.mov" />
 
 		<Asset type="image" name="Otus_Car_L"  file="Otus_Car_L.png" />
 
