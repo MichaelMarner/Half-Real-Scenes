@@ -92,9 +92,9 @@
 		<Asset type="image" name="Outside_R"  file="House_Exterior_R.png" />
 		<Asset type="image" name="Outside_F"  file="House_Exterior_F.png" />
 
-		<Asset type="image" name="Outide_Bathroom_L"  file="Outside_Bathroom_Blackout_L.png" />
-		<Asset type="image" name="Outide_Bathroom_R"  file="Outside_Bathroom_Blackout_R.png" />
-		<Asset type="image" name="Outide_Bathroom_F"  file="Outside_Bathroom_Blackout_F.png" />
+		<Asset type="image" name="Outside_Bathroom_L"  file="Outside_Bathroom_Blackout_L.png" />
+		<Asset type="image" name="Outside_Bathroom_R"  file="Outside_Bathroom_Blackout_R.png" />
+		<Asset type="image" name="Outside_Bathroom_F"  file="Outside_Bathroom_Blackout_F.png" />
 	</Assets>
 
 	<VoteOptions>
