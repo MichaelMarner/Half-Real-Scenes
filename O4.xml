@@ -99,6 +99,9 @@
 		<Asset type="image" name="LRB_L"  file="Living_Room_Blackout_L.png" />
 		<Asset type="image" name="LRB_R"  file="Living_Room_Blackout_R.png" />
 		<Asset type="image" name="LRB_F"  file="Living_Room_Blackout_F.png" />
+		<Asset type="image" name="L_L"  file="Lineup_white_L.png" />
+		<Asset type="image" name="L_R"  file="Lineup_white_R.png" />
+		<Asset type="image" name="L_F"  file="Lineup_white_F.png" />
 	</Assets>
 
 	<VoteOptions>
