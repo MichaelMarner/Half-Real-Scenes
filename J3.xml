@@ -26,9 +26,9 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 appear" time="0"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 3 appear" time="0"/>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 2 appear" time="0"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 appear" time="0"/>
 		<!-- Voting Complete -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 fadeout" time="0"/>
