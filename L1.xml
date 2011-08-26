@@ -2,9 +2,12 @@
 <Scene>
 	<CronEvents>
 		<Event name="CRONZERO"                     time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 0" time="0:00" repeat="0" />
+		<Event name="Show    Cabinet" time="0" />
 		<Event name="ToImage LeftWall  BathroomE_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BathroomE_R 3" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Bathroom_F  3" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   Bathroom_C  3" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText l1 appear" time="0:00"/>
 

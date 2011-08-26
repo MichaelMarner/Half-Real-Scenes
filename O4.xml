@@ -77,6 +77,12 @@
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
+
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  L_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall L_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     L_F 1" time="0:02" repeat="0" />
+
 	</CronEvents>
 
 	<Assets>

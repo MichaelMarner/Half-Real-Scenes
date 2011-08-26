@@ -2,6 +2,7 @@
 <Scene>
 	<CronEvents>
 		<!-- TO COME: Lineup Room Sans Lines -->
+		<Event name="Hide Cabinet" time="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  Concrete_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Concrete_R 1" time="0:00" repeat="0" />
