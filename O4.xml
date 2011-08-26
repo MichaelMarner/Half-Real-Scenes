@@ -29,8 +29,8 @@
 		<Event name="ProjectedText time2 appear" time="0:01.5"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
-		<Event name="ProjectedText info2 fadeout" time="0:05"/>
-		<Event name="ProjectedText time2 fadeout" time="0:05"/>
+		<Event name="ProjectedText info2 fadeout" time="0:00"/>
+		<Event name="ProjectedText time2 fadeout" time="0:00"/>
 
 		<Event name="ToImage LeftWall  Otus_Car_L 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -53,7 +53,7 @@
 
 		<Event name="CRONZERO" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText time4 appear" time="0:00"/>
+		<Event name="ProjectedText time5 appear" time="0:00"/>
 		<Event name="ToColor LeftWall  0 0 0 0" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 0" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 0" time="0:00" repeat="0" />
@@ -81,9 +81,9 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Black -->
-		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor LeftWall  0 0 0 4" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 4" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 4" time="0:00" repeat="0" />
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  L_L 1" time="0:02" repeat="0" />
@@ -109,6 +109,7 @@
 		<Asset type="image" name="LRB_L"  file="Living_Room_Blackout_L.png" />
 		<Asset type="image" name="LRB_R"  file="Living_Room_Blackout_R.png" />
 		<Asset type="image" name="LRB_F"  file="Living_Room_Blackout_F.png" />
+
 		<Asset type="image" name="L_L"  file="Lineup_white_L.png" />
 		<Asset type="image" name="L_R"  file="Lineup_white_R.png" />
 		<Asset type="image" name="L_F"  file="Lineup_white_F.png" />
