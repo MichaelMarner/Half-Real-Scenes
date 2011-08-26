@@ -5,6 +5,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1 0" time="0:00" repeat="0" />
 		<Event name="ProjectedText info1 appear" time="0:02"/>
 		<Event name="ProjectedText time1 appear" time="0:03"/>
 
@@ -14,6 +15,7 @@
 		<Event name="ProjectedText time1 fadeout" time="0:00"/>
 		<Event name="ToColor LeftWall  0 0 0  1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0  1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Cupboard_R 1" time="0:00" repeat="0" />
 
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
@@ -26,6 +28,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1 0" time="0:00" repeat="0" />
 		<Event name="ProjectedText info3 appear" time="0:02"/>
 		<Event name="ProjectedText time3 appear" time="0:03"/>
 
@@ -46,6 +49,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1 0" time="0:00" repeat="0" />
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
