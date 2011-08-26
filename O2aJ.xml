@@ -5,6 +5,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText info1 appear" time="2"/>
 		<Event name="ProjectedText time1 appear" time="0:03"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -15,6 +16,7 @@
 		<Event name="ToImage LeftWall  Alley_L 1" time="0:00" repeat="0" />
 		<Event name="ToVideo RightWall Alley_R 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Alley_F 1" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet Alley_C 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 
@@ -22,6 +24,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1 0" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- BACK TO INTERVIEW -->
@@ -61,6 +64,7 @@
 		<Asset type="image" name="Alley_L"  file="Alleyway_Santiago_L.png" />
 		<Asset type="video" name="Alley_R"  file="Alleyway_Santiago_R.mov" />
 		<Asset type="image" name="Alley_F"  file="Alleyway_Santiago_F.png" />
+		<Asset type="image" name="Alley_C"  file="Alleyway_Santiago_Cabinet.png" />
 
 		<Asset type="video" name="Bookstore_L"  file="Bookstore_L.mov" />
 		<Asset type="image" name="Bookstore_R"  file="Bookstore_R.png" />

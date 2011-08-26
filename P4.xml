@@ -23,22 +23,6 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ProjectedText infot appear" time="0:02"/>
-		<Event name="ProjectedText timet appear" time="0:02.5"/>
-
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText infot fadeout" time="0:00"/>
-		<Event name="ProjectedText timet fadeout" time="0:00"/>
-		<Event name="ToImage RightWall VT_R 1" time="0:00" repeat="0" />
-
-
-		<Event name="CRONZERO" time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-
-		<!-- Black -->
-		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText info2 appear" time="0:02"/>
 		<Event name="ProjectedText time2 appear" time="0:02.5"/>
 
@@ -68,9 +52,9 @@
 
 		<!-- Black -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor LeftWall  0 0 0 4" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 4" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 4" time="0:00" repeat="0" />
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  L_L 1" time="0:02" repeat="0" />

@@ -1,8 +1,6 @@
 <?xml version="1.0" ?>
 <Scene>
 	<CronEvents>
-		<Event name="ToColor Cabinet 0 0 0 0" time="0:00" repeat="0" />
-		<Event name="Show    Cabinet" time="0" />
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
