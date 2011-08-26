@@ -16,6 +16,7 @@
 		<Event name="ToColor RightWall 0 0 0 0.2" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 0.2" time="0:00" repeat="0" />
 		<Event name="ToColor Cabinet   0 0 0 0.2 0" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1" time="0:00" repeat="0" />
 
 		<!-- Vote! -->
 		<Event name="CRONZERO"                     time="0:00" repeat="0" />

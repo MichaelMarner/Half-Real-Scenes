@@ -38,6 +38,7 @@
 
 
 		<!-- O1 -->
+		<Event name="ProjectedText crack1 fadeout" time="0:00"/>
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
@@ -77,8 +78,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Photo?"     wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="150" mode="ATA"/>
-		<VoteOption text="Translate?" wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA"/>
+		<VoteOption text="Photo?"     wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="190" mode="ATA"/>
+		<VoteOption text="Translate?" wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="220" mode="ATA"/>
 		<VoteOption text="Blood?"  wall="right" inactive="255 255 255" active="255 0 0" x="80" y="100" mode="static"/>
 	</VoteOptions>
 

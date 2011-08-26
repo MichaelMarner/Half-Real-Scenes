@@ -13,7 +13,7 @@
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Bathroom_C 3" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet Bathroom_C 3" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
 
@@ -23,7 +23,7 @@
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Bathroom_C 3" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet Bathroom_C 3" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToVideo LeftWall  BRM_L 2 1 0" time="0:00" repeat="0" />
 		<Event name="ToVideo RightWall BRM_R 2 1 0" time="0:00" repeat="0" />
@@ -42,7 +42,7 @@
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Bathroom_C 3" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet Bathroom_C 3" time="0:00" repeat="0" />
 		<Event name="ProjectedText pinfo appear" time="0"/>
 		<Event name="ProjectedText ptime appear" time="0:01"/>
 		<Event name="ProjectedText pinfo fadeout" time="0:05"/>
@@ -65,6 +65,7 @@
 		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />
 		<Asset type="image" name="Bathroom_R"  file="Bathroom_R.png" />
 		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
+		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
@@ -76,9 +77,9 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Film?"     wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="150" mode="ATA"/>
-		<VoteOption text="Tattoo?"   wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA"/>
-		<VoteOption text="Valium?" wall="left"  inactive="255 255 255" active="0 255 0" x="-78" y="190" mode="static"/>
+		<VoteOption text="Film?"     wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="190" mode="ATA"/>
+		<VoteOption text="Tattoo?"   wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="220" mode="ATA"/>
+		<VoteOption text="Valium?" wall="left"  inactive="0 255 0" active="0 255 0" x="-78" y="190" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>

@@ -20,6 +20,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1 0" time="0:00" repeat="0" />
 		<Event name="ProjectedText info2 appear" time="0:02"/>
 		<Event name="ProjectedText time2 appear" time="0:03"/>
 
@@ -54,7 +55,7 @@
 		<Asset type="image" name="Living_Room_L"  file="Living_Room_L.png" />
 		<Asset type="image" name="Living_Room_R"  file="Living_Room_R.png" />
 		<Asset type="image" name="Living_Room_F"  file="Living_Room_F.png" />
-		<Asset type="image" name="Living_Room_C"  file="Living_Room_C.png" />
+		<Asset type="image" name="Living_Room_C"  file="Living_Room_Cabinet.png" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />

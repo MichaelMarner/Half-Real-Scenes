@@ -134,7 +134,7 @@
 		<Asset type="video" name="Living_Room2_L"  file="Living_Room_02_L.mov" />
 		<Asset type="image" name="Living_Room_R"  file="Living_Room_R.png" />
 		<Asset type="image" name="Living_Room_F"  file="Living_Room_F.png" />
-		<Asset type="image" name="Living_Room_C"  file="Living_Room_C.png" />
+		<Asset type="image" name="Living_Room_C"  file="Living_Room_Cabinet.png" />
 	</Assets>
 
 	<VoteOptions>
