@@ -94,7 +94,7 @@
 		<Asset type="image" name="BR_R"  file="Bathroom_R.png" />
 		<Asset type="image" name="BR_F"  file="Bathroom_F.png" />
 
-		<Asset type="image" name="Otus_CAR_L"  file="Otus_Car_L.png" />
+		<Asset type="image" name="Otus_Car_L"  file="Otus_Car_L.png" />
 
 		<Asset type="image" name="LRB_L"  file="Living_Room_Blackout_L.png" />
 		<Asset type="image" name="LRB_R"  file="Living_Room_Blackout_R.png" />
