@@ -5,6 +5,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText info1 appear" time="0:02"/>
 		<Event name="ProjectedText time1 appear" time="0:03"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -15,6 +16,7 @@
 		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     BR_F 1" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   Bathroom_C 3" time="0:00" repeat="0" />
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToVideo RightWall BRV_R 2" time="0:00" repeat="0" />
@@ -25,6 +27,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText info2 appear" time="0:01"/>
 		<Event name="ProjectedText time2 appear" time="0:01.5"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -39,6 +42,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText info3 appear" time="0:01"/>
 		<Event name="ProjectedText time3 appear" time="0:01.5"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -78,6 +82,7 @@
 		<Event name="ToImage LeftWall  BRB_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BRB_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     BRB_F 1" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   BRB_C 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Black -->
@@ -109,10 +114,12 @@
 		<Asset type="image" name="LRB_L"  file="Living_Room_Blackout_L.png" />
 		<Asset type="image" name="LRB_R"  file="Living_Room_Blackout_R.png" />
 		<Asset type="image" name="LRB_F"  file="Living_Room_Blackout_F.png" />
+		<Asset type="image" name="LRB_C"  file="Living_Room_Cabinet_Blackout.png" />
 
 		<Asset type="image" name="L_L"  file="Lineup_white_L.png" />
 		<Asset type="image" name="L_R"  file="Lineup_white_R.png" />
 		<Asset type="image" name="L_F"  file="Lineup_white_F.png" />
+		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
 	</Assets>
 
 	<VoteOptions>

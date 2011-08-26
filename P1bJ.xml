@@ -4,6 +4,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1 0"     time="0:00" repeat="0" />
 		<Event name="ProjectedText info appear" time="0:03"/>
 		<Event name="ProjectedText time appear" time="0:04"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -12,6 +13,7 @@
 		<Event name="ToImage LeftWall  TP_L 1" time="0:00" repeat="0" />
 		<Event name="ToVideo RightWall TP_R 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     TP_F 1" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   TP_C 1" time="0:00" repeat="0" />
 
 		<!-- Back to bathroom -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -19,9 +21,11 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1 0"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  Bathroom_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 1" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   Bathroom_C 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 1"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToVideo LeftWall  BathroomW_L 1 1 0" time="0:00" repeat="0" />
@@ -51,6 +55,7 @@
 		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1 0"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
 		<Event name="VoteOption 1 fadeout" time="0:00"/>
 		<Event name="VoteOption 2 fadeout" time="0:00"/>
@@ -60,6 +65,7 @@
 		<Asset type="image" name="TP_L"  file="Tattoo_Parlour_L.png" />
 		<Asset type="video" name="TP_R"  file="Tattoo_Parlour_R.mov" />
 		<Asset type="image" name="TP_F"  file="Tattoo_Parlour_F.png" />
+		<Asset type="image" name="TP_C"  file="Tattoo_Parlour_Cabinet.png" />
 		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />
 		<Asset type="image" name="Bathroom_R"  file="Bathroom_R.png" />
 		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
@@ -68,6 +74,7 @@
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
+		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
 	</Assets>
 
 	<VoteOptions>

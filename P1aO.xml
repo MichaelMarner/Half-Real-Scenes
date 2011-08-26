@@ -4,6 +4,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1 0"     time="0:00" repeat="0" />
 		<Event name="ProjectedText info appear" time="0:03"/>
 		<Event name="ProjectedText time appear" time="0:04"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -25,6 +26,7 @@
 		<Event name="ToImage LeftWall  Bathroom_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 1"     time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   Bathroom_C 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToVideo LeftWall  BathroomW_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BathroomE_R 0" time="0:00" repeat="0" />
@@ -42,6 +44,7 @@
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   Bathroom_C 1" time="0:00" repeat="0" />
 		<Event name="ProjectedText jinfo appear" time="0"/>
 		<Event name="ProjectedText jtime appear" time="0:01"/>
 		<Event name="ProjectedText jinfo fadeout" time="0:05"/>
@@ -54,6 +57,7 @@
 		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor Lineup_F 1"     time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1 0"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
 		<Event name="VoteOption 1 fadeout" time="0:00"/>
 		<Event name="VoteOption 2 fadeout" time="0:00"/>
@@ -71,6 +75,7 @@
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
+		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
 	</Assets>
 
 	<VoteOptions>

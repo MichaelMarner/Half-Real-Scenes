@@ -5,6 +5,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1 0" time="0:00" repeat="0" />
 		<Event name="ProjectedText info1 appear" time="2"/>
 		<Event name="ProjectedText time1 appear" time="0:03"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -52,6 +53,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1 0" time="0:00" repeat="0" />
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText info2 appear" time="0"/>
@@ -66,6 +68,7 @@
 		<Event name="ToVideo LeftWall  Living_Room2_L 3 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Living_Room_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Living_Room_F 3" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   Living_Room_C 3" time="0:00" repeat="0" />
 
 		<!-- subtitles -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -127,6 +130,7 @@
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1 0" time="0:00" repeat="0" />
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
@@ -158,6 +162,7 @@
 		<Asset type="video" name="Living_Room2_L"  file="Living_Room_02_L.mov" />
 		<Asset type="image" name="Living_Room_R"  file="Living_Room_R.png" />
 		<Asset type="image" name="Living_Room_F"  file="Living_Room_F.png" />
+		<Asset type="image" name="Living_Room_C"  file="Living_Room_C.png" />
 	</Assets>
 
 	<VoteOptions>
