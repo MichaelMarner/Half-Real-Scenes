@@ -10,7 +10,7 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText info fadeout" time="0:00"/>
 		<Event name="ProjectedText time fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  Living_Room_L 3" time="0:00" repeat="0" />
+		<Event name="ToVideo LeftWall  Living_Room_L 3 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Living_Room_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Living_Room_F 3" time="0:00" repeat="0" />
 		<Event name="ToImage Cabinet   Living_Room_C 3" time="0:00" repeat="0" />
@@ -76,7 +76,7 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="image" name="Living_Room_L"  file="Living_Room_L.png" />
+		<Asset type="video" name="Living_Room_L"  file="Living_Room_01_L.mov" />
 		<Asset type="image" name="Living_Room_R"  file="Living_Room_R.png" />
 		<Asset type="image" name="Living_Room_F"  file="Living_Room_F.png" />
 		<Asset type="image" name="Living_Room_C"  file="Living_Room_Cabinet.png" />
