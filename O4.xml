@@ -58,17 +58,16 @@
 
 		<Event name="CRONZERO" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText time5 appear" time="0:00"/>
-		<Event name="ProjectedText time5 appear" time="0:03"/>
 		<Event name="ToColor LeftWall  0 0 0 0" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 0" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 0" time="0:00" repeat="0" />
 		<Event name="ToColor Cabinet   0 0 0 0" time="0:00" repeat="0" />
+		<Event name="ProjectedText time5 appear" time="0:02"/>
 		<Event name="ToImage LeftWall  LRB_L 1" time="0:02" repeat="0" />
 		<Event name="ToImage RightWall LRB_R 1" time="0:02" repeat="0" />
 		<Event name="ToImage Floor     LRB_F 1" time="0:02" repeat="0" />
-		<Event name="ToImage Cabinet   LRB_C 1" time="0:00" repeat="0" />
-		<Event name="ProjectedText time4 fadeout" time="0:05"/>
+		<Event name="ToImage Cabinet   LRB_C 1" time="0:02" repeat="0" />
+		<Event name="ProjectedText time5 fadeout" time="0:04"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Black -->
@@ -108,6 +107,7 @@
 		<Asset type="image" name="BRB_L"  file="Bathroom_Blackout_L.png" />
 		<Asset type="image" name="BRB_R"  file="Bathroom_Blackout_R.png" />
 		<Asset type="image" name="BRB_F"  file="Bathroom_Blackout_F.png" />
+		<Asset type="image" name="BRB_C"  file="Bathroom_Cabinet_Blackout.png" />
 
 		<Asset type="image" name="BR_L"  file="Bathroom_L.png" />
 		<Asset type="image" name="BR_R"  file="Bathroom_R.png" />
