@@ -84,7 +84,7 @@
 		<Asset type="image" name="Bathroom_L"  file="Bathroom_L.png" />
 		<Asset type="image" name="Bathroom_R"  file="Bathroom_R.png" />
 		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
-		<Asset type="image" name="Bathroom_C"  file="Bathroom_C.png" />
+		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
 
 		<Asset type="image" name="BathroomE_L"  file="Bathroom_wine_crack_L.png" />
 		<Asset type="video" name="Inset_R"  file="Bathroom_Inset_Blood_R.mov" />
