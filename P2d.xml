@@ -33,7 +33,6 @@
 		<Event name="ToImage Floor     Film_Set_F 1" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText motive appear" time="0:00"/>
 
 		<!-- BLACK -->

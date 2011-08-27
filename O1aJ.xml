@@ -41,12 +41,11 @@
 		<Event name="ProjectedText blood1 appear" time="0:00"/>
 		<Event name="ToVideo RightWall Inset_R 1 1 0"     time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  BathroomE_L 1" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 appear" time="0:01"/>
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText blood1 fadeout" time="0:00"/>
-		<Event name="VoteOption 3 appear" time="0:00"/>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 3 fadeout" time="0:00"/>
+		<Event name="VoteOption 3 fadeout" time="0:02"/>
 
 
 		<!-- P1 -->
@@ -97,7 +96,7 @@
 		<VoteOption text="Tattoo?"   wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA"/>
 
 
-		<VoteOption text="Valium?" wall="left"  inactive="255 255 255" active="0 255 0" x="-78" y="190" mode="static"/>
+		<VoteOption text="Valium?" wall="left"  inactive="0 255 0" active="0 255 0" x="-78" y="190" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>

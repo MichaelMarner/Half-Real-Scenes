@@ -32,15 +32,14 @@
 		<Event name="ProjectedText crack1 appear" time="0:00"/>
 		<Event name="ToVideo LeftWall Inset_L 1 1 0"     time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BathroomE_R 0" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 appear" time="0:01"/>
 
 		<Event name="CRONZERO" time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 3 appear" time="0:00"/>
-		<Event name="VoteOption 3 fadeout" time="0:03"/>
 
 		<!-- O1 -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText crack1 fadeout" time="0:00"/>
+		<Event name="VoteOption 3 fadeout" time="0:02"/>
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
