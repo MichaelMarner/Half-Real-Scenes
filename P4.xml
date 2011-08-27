@@ -62,11 +62,11 @@
 		<Event name="ToColor Floor     0 0 0 4" time="0:00" repeat="0" />
 		<Event name="ToColor Cabinet 0 0 0 4 0"     time="0:00" repeat="0" />
 
-		<!-- White lineup -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  L_L 1" time="0:02" repeat="0" />
-		<Event name="ToImage RightWall L_R 1" time="0:02" repeat="0" />
-		<Event name="ToImage Floor     L_F 1" time="0:02" repeat="0" />
+		<Event name="ToColor LeftWall  255 255 255 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 255 255 255 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   255 255 255 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     255 255 255 1" time="0:00" repeat="0" />
 	</CronEvents>
 
 	<Assets>
