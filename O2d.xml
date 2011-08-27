@@ -138,7 +138,7 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Jason?"     wall="right"  inactive="255 255 255" active="0 0 255" x="-100"   y="185" mode="ANLU -180 -50"/>
+		<VoteOption text="Jason?"     wall="right"  inactive="255 255 255" active="0 0 255" x="50"   y="185" mode="ANLU -180 -50"/>
 		<VoteOption text="Penelope?"    wall="right" inactive="255 255 255" active="255 0 0" x="130" y="220" mode="ANLU -100 100" />
 	</VoteOptions>
 
