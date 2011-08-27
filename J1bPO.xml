@@ -94,6 +94,6 @@
 		<ProjectedText id="crack2"     wall="left" x="60" y="103" color=" 255 255 255">7:41pm</ProjectedText>
 		<ProjectedText id="info2"      wall="left" x="60" y="250" color=" 255 255 255">Violet's Bathroom</ProjectedText>
 		<ProjectedText id="l2"      wall="left" x="60" y="250" color=" 255 255 255">Level 2</ProjectedText>
-		<ProjectedText id="goal"      wall="left" x="60" y="233" color=" 255 255 255">Establish motive</ProjectedText>
+		<ProjectedText id="goal"      wall="left" x="60" y="233" color=" 255 255 255">Goal: Establish motive</ProjectedText>
 	</TextItems>
 </Scene>

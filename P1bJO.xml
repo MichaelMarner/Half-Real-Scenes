@@ -93,6 +93,6 @@
 		<ProjectedText id="time"      wall="left" x="60" y="233" color=" 255 255 255">Penelope's 16th Birthday</ProjectedText>
 		<ProjectedText id="v1"     wall="left" x="-30" y="180" color=" 255 255 255">Valium Established</ProjectedText>
 		<ProjectedText id="l2"      wall="left" x="60" y="250" color=" 255 255 255">Level 2</ProjectedText>
-		<ProjectedText id="goal"      wall="left" x="60" y="233" color=" 255 255 255">Establish motive</ProjectedText>
+		<ProjectedText id="goal"      wall="left" x="60" y="233" color=" 255 255 255">Goal: Establish motive</ProjectedText>
 	</TextItems>
 </Scene>

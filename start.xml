@@ -67,6 +67,6 @@
 	<TextItems>
 		<ProjectedText id="vv"      wall="left" x="60" y="250" color=" 255 255 255">Violet Vario</ProjectedText>
 		<ProjectedText id="drowned" wall="left" x="60" y="233" color="255 255 255">Drowned</ProjectedText>
-		<ProjectedText id="time"    wall="left" x="60" y="215" color="255 255 255">7.55-8pm</ProjectedText>
+		<ProjectedText id="time"    wall="left" x="60" y="215" color="255 255 255">7:55-8:00pm</ProjectedText>
 	</TextItems>
 </Scene>
