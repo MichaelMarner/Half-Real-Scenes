@@ -32,7 +32,7 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="video" name="Limo_R"  file="Limo_L.mov" />
+		<Asset type="video" name="Limo_R"  file="Limo_R.mov" />
 		<Asset type="image" name="Limo_F"  file="Limo_F.png" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
