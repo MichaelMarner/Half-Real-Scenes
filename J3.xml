@@ -17,8 +17,7 @@
 		<Event name="ToColor LeftWall  0 0 0 0.2" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 0.2" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 0.2" time="0:00" repeat="0" />
-		<Event name="ToColor Cabinet   0 0 0 0.2 0" time="0:00" repeat="0" />
-		<Event name="ToColor Cabinet   0 0 0 0 0" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 0.2" time="0:00" repeat="0" />
 
 		<!-- Vote! -->
 		<Event name="CRONZERO"                     time="0:00" repeat="0" />
@@ -30,9 +29,9 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 appear" time="0"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 2 appear" time="0"/>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 3 appear" time="0"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 2 appear" time="0"/>
 		<!-- Voting Complete -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 fadeout" time="0"/>
@@ -52,8 +51,8 @@
 
 	<VoteOptions>
 		<VoteOption text="Otus?"     wall="left"  inactive="255 255 255" active="0 0 255" x="-60" y="170" mode="ANLU -70 180"/>
-		<VoteOption text="Jason?"    wall="right" inactive="255 255 255" active="255 0 0" x="50"   y="185" mode="ANLU -180 -50"/>
-		<VoteOption text="Penelope?" wall="right" inactive="255 255 255" active="0 255 0" x="130" y="220" mode="ANLU -100 100"/>
+		<VoteOption text="Jason?"    wall="right" inactive="255 255 255" active="255 0 0" x="130" y="220" mode="ANLU -100 100" />
+		<VoteOption text="Penelope?" wall="right" inactive="255 255 255" active="0 255 0" x="50"   y="185" mode="ANLU -180 -50"/>
 	</VoteOptions>
 
 	<TextItems>
