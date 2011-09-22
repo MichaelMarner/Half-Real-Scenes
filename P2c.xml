@@ -95,6 +95,6 @@
 		<ProjectedText id="info3"      wall="left" x="60" y="250" color=" 255 255 255">Film set</ProjectedText>
 		<ProjectedText id="time3"      wall="left" x="60" y="233" color=" 255 255 255">1 day before the murder</ProjectedText>
 
-		<ProjectedText id="motive" wall="right" x="60" y="250" color="255 255 255">Possible motive established.</ProjectedText>
+		<ProjectedText id="motive" wall="right" x="5" y="205" color="255 255 255">Possible motive established.</ProjectedText>
 	</TextItems>
 </Scene>
