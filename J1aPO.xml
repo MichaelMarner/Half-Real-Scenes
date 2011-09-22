@@ -89,7 +89,7 @@
 		<ProjectedText id="info"      wall="left" x="60" y="250" color=" 255 255 255">Jason's Car</ProjectedText>
 		<ProjectedText id="time"      wall="left" x="60" y="233" color=" 255 255 255">5 Minutes Earlier</ProjectedText>
 		<ProjectedText id="crack1"     wall="left" x="60" y="250" color=" 255 255 255">Crack Established</ProjectedText>
-		<ProjectedText id="l2"      wall="left" x="60" y="250" color=" 255 255 255">Level 2</ProjectedText>
+		<ProjectedText id="l2"      wall="left" x="60" y="250" color=" 255 255 255">Level Two</ProjectedText>
 		<ProjectedText id="goal"      wall="left" x="60" y="233" color=" 255 255 255">Goal: Establish motive</ProjectedText>
 	</TextItems>
 </Scene>

@@ -107,7 +107,7 @@
 		<ProjectedText id="time2"      wall="left" x="60" y="233" color=" 255 255 255">7:44pm</ProjectedText>
 		<ProjectedText id="blood1"     wall="right" x="100" y="110" color=" 255 255 255">Blood Established</ProjectedText>
 
-		<ProjectedText id="l2"      wall="left" x="60" y="250" color=" 255 255 255">Level 2</ProjectedText>
+		<ProjectedText id="l2"      wall="left" x="60" y="250" color=" 255 255 255">Level Two</ProjectedText>
 		<ProjectedText id="goal"      wall="left" x="60" y="233" color=" 255 255 255">Goal: Establish motive</ProjectedText>
 	</TextItems>
 </Scene>
