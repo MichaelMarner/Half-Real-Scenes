@@ -86,7 +86,7 @@
 	<TextItems>
 		<ProjectedText id="info1"      wall="left" x="60" y="250" color=" 255 255 255">Living room of a house</ProjectedText>
 		<ProjectedText id="time1"      wall="left" x="60" y="233" color=" 255 255 255">1 year ago</ProjectedText>
-		<ProjectedText id="motive" wall="right" x="120" y="250" color="255 255 255">Possible motive established.</ProjectedText>
+		<ProjectedText id="motive" wall="right" x="155" y="250" color="255 255 255">Possible motive established.</ProjectedText>
 
 		<ProjectedText id="l3"      wall="left" x="60" y="250" color=" 255 255 255">Level Three</ProjectedText>
 		<ProjectedText id="goal"    wall="left" x="60" y="233" color=" 255 255 255">Goal: Interpret the Nightmare</ProjectedText>
