@@ -18,6 +18,7 @@
 		<Event name="ToImage Floor     AD_F 1" time="0:00" repeat="0" />
 
 		<!-- BLACK -->
+		<Event name="CRONZERO"  time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
