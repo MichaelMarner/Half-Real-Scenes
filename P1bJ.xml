@@ -31,18 +31,23 @@
 		<Event name="ToVideo LeftWall  BathroomW_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BathroomE_R 0" time="0:00" repeat="0" />
 		<Event name="ProjectedText v1 appear" time="0:00"/>
-		<Event name="VoteOption 3 appear" time="0:01"/>
+
+
+
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 appear" time="0:00"/>
+		<Event name="ProjectedText v1 fadeout" time="0:00"/>
+		<Event name="ToImage LeftWall  BathroomE_L 3" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 fadeout" time="0:00"/>
+
 
 		<!-- OTUS 1 -->
-		<Event name="CRONZERO" time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText v1 fadeout" time="0:00"/>
-		<Event name="VoteOption 3 fadeout" time="0:04"/>
-
-		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
-		<Event name="ToImage Cabinet   Bathroom_C 3" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:03" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 3" time="0:03" repeat="0" />
+		<Event name="ToImage Floor     Bathroom_F 3" time="0:03" repeat="0" />
+		<Event name="ToImage Cabinet   Bathroom_C 3" time="0:03" repeat="0" />
 		<Event name="ProjectedText Oinfo appear" time="0"/>
 		<Event name="ProjectedText Otime appear" time="0:01"/>
 		<Event name="ProjectedText Oinfo fadeout" time="0:05"/>
@@ -73,6 +78,7 @@
 		<Asset type="image" name="BathroomE_R"  file="Bathroom_blood_R.png" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
+		<Asset type="image" name="BathroomE_L"  file="Bathroom_wine_crack_L.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
 		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
 	</Assets>
@@ -80,7 +86,7 @@
 	<VoteOptions>
 		<VoteOption text="Photo?"     wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="150" mode="ATA"/>
 		<VoteOption text="Translate?" wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA"/>
-		<VoteOption text="Blood"  wall="right" inactive="255 255 255" active="255 0 0" x="80" y="100" mode="static"/>
+		<VoteOption text="Blood"  wall="right" inactive="255 0 0 " active="255 0 0" x="80" y="100" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>

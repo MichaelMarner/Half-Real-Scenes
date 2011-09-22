@@ -31,20 +31,22 @@
 		<Event name="ToVideo LeftWall  BathroomW_L 1 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BathroomE_R 0" time="0:00" repeat="0" />
 		<Event name="ProjectedText v1 appear" time="0:00"/>
-		<Event name="VoteOption 3 appear" time="0:01"/>
 
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 appear" time="0:00"/>
 		<Event name="ProjectedText v1 fadeout" time="0:00"/>
+		<Event name="ToImage LeftWall  BathroomE_L 3" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 3 fadeout" time="0:02"/>
+		<Event name="VoteOption 3 fadeout" time="0:00"/>
+
 
 		<!-- J1 -->
-		<Event name="CRONZERO"  time="0:00" repeat="0" />
-		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
-		<Event name="ToImage Cabinet   Bathroom_C 1" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:03" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 3" time="0:03" repeat="0" />
+		<Event name="ToImage Floor     Bathroom_F 3" time="0:03" repeat="0" />
+		<Event name="ToImage Cabinet   Bathroom_C 1" time="0:03" repeat="0" />
 		<Event name="ProjectedText jinfo appear" time="0"/>
 		<Event name="ProjectedText jtime appear" time="0:01"/>
 		<Event name="ProjectedText jinfo fadeout" time="0:05"/>
@@ -76,12 +78,13 @@
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
 		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
+		<Asset type="image" name="BathroomE_L"  file="Bathroom_wine_crack_L.png" />
 	</Assets>
 
 	<VoteOptions>
 		<VoteOption text="Envelope?" wall="left" inactive="255 255 255" active="0 0 255" x="50" y="90" mode="static"/>
 		<VoteOption text="Camera?"   wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA" />
-		<VoteOption text="Crack"  wall="left"  inactive="255 255 255" active="0 0 255" x="90" y="120" dy="-1" mode="static"/>
+		<VoteOption text="Crack"  wall="left"  inactive="0 0 255" active="0 0 255" x="90" y="120" dy="-1" mode="static"/>
 	</VoteOptions>
 
 	<TextItems>

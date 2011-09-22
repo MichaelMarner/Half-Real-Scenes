@@ -30,17 +30,20 @@
 		<Event name="ProjectedText crack1 appear" time="0:00"/>
 		<Event name="ToVideo LeftWall Inset_L 1 1 0"     time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BathroomE_R 0" time="0:00" repeat="0" />
-		<Event name="VoteOption 3 appear" time="0:01"/>
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 appear" time="0:00"/>
 		<Event name="ProjectedText crack1 fadeout" time="0:00"/>
-		<Event name="VoteOption 3 fadeout" time="0:02"/>
+		<Event name="ToImage LeftWall  BathroomE_L 3" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 fadeout" time="0:00"/>
 
 		<!-- P1 -->
-		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
-		<Event name="ToImage Cabinet   Bathroom_C 3" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:03" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 3" time="0:03" repeat="0" />
+		<Event name="ToImage Floor     Bathroom_F 3" time="0:03" repeat="0" />
+		<Event name="ToImage Cabinet   Bathroom_C 3" time="0:03" repeat="0" />
 		<Event name="ProjectedText pinfo appear" time="0"/>
 		<Event name="ProjectedText ptime appear" time="0:01"/>
 		<Event name="ProjectedText pinfo fadeout" time="0:05"/>
@@ -71,6 +74,7 @@
 		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
 		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
 		<Asset type="video" name="Inset_L"  file="Bathroom_Inset_Crack_L.mov" />
+		<Asset type="image" name="BathroomE_L"  file="Bathroom_wine_crack_L.png" />
 		<Asset type="image" name="BathroomE_R"  file="Bathroom_blood_R.png" />
 	</Assets>
 

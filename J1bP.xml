@@ -32,9 +32,15 @@
 		<Event name="ProjectedText crack1 appear" time="0:00"/>
 		<Event name="ToVideo LeftWall Inset_L 1 1 0"     time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BathroomE_R 0" time="0:00" repeat="0" />
-		<Event name="VoteOption 3 appear" time="0:01"/>
 
-		<Event name="CRONZERO" time="0:00" repeat="0" />
+
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 appear" time="0:00"/>
+		<Event name="ProjectedText crack1 fadeout" time="0:00"/>
+		<Event name="ToImage LeftWall  BathroomE_L 3" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="VoteOption 3 fadeout" time="0:00"/>
 
 		<!-- O1 -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -74,6 +80,7 @@
 		<Asset type="image" name="Bathroom_F"  file="Bathroom_F.png" />
 		<Asset type="video" name="Inset_L"  file="Bathroom_Inset_Crack_L.mov" />
 		<Asset type="image" name="BathroomE_R"  file="Bathroom_blood_R.png" />
+		<Asset type="image" name="BathroomE_L"  file="Bathroom_wine_crack_L.png" />
 		<Asset type="image" name="Bathroom_C"  file="Bathroom_Cabinet.png" />
 	</Assets>
 
