@@ -77,7 +77,7 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Film?"     wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="150" mode="ATA"/>
+		<VoteOption text="The Film?"     wall="auto" inactive="255 255 255" active="0 0 255" x="0" y="150" mode="ATA"/>
 		<VoteOption text="Tattoo?"   wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="180" mode="ATA"/>
 		<VoteOption text="Valium?" wall="left"  inactive="0 255 0" active="0 255 0" x="-78" y="190" mode="static"/>
 	</VoteOptions>
