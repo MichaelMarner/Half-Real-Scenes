@@ -187,18 +187,18 @@
 		<ProjectedText id="info3"      wall="left" x="60" y="233" color=" 255 255 255">Night of the murder</ProjectedText>
 		<ProjectedText id="time2"      wall="left" x="60" y="216" color=" 255 255 255">7:30pm</ProjectedText>
 
-		<ProjectedText id="chap1" wall="left" x="60" y="250" color="255 255 255">Chapter 4. The Laundry.</ProjectedText>
-		<ProjectedText id="sub1" wall="left" x="60" y="250" color="255 255 255">I could hear footsteps...</ProjectedText>
-		<ProjectedText id="sub2" wall="left" x="60" y="250" color="255 255 255">shouts and screams...</ProjectedText>
-		<ProjectedText id="sub3" wall="left" x="60" y="250" color="255 255 255">Hercules Mendez stripped her naked.</ProjectedText>
-		<ProjectedText id="sub4" wall="left" x="60" y="250" color="255 255 255">She fought.</ProjectedText>
-		<ProjectedText id="sub5" wall="left" x="60" y="250" color="255 255 255">Two men held her legs apart.</ProjectedText>
-		<ProjectedText id="sub6" wall="left" x="60" y="250" color="255 255 255">He laughed.</ProjectedText>
-		<ProjectedText id="sub7" wall="left" x="60" y="250" color="255 255 255">Mendez did it.</ProjectedText>
-		<ProjectedText id="sub8" wall="left" x="60" y="250" color="255 255 255">I watched.</ProjectedText>
-		<ProjectedText id="sub9" wall="left" x="60" y="250" color="255 255 255">They dumped her into the bath.</ProjectedText>
-		<ProjectedText id="sub10" wall="left" x="60" y="250" color="255 255 255">Get your wife to...</ProjectedText>
-		<ProjectedText id="sub11" wall="left" x="60" y="250" color="255 255 255">write that up in the newspapers.</ProjectedText>
+                <ProjectedText id="chap1" wall="left" x="60" y="250" color="255 255 255">Chapter 4. The laundry was cold.</ProjectedText>
+                <ProjectedText id="sub1" wall="left" x="60" y="250" color="255 255 255">I was blindfolded.</ProjectedText>
+                <ProjectedText id="sub2" wall="left" x="60" y="250" color="255 255 255">I could hear shouts and screams.</ProjectedText>
+                <ProjectedText id="sub3" wall="left" x="60" y="250" color="255 255 255">Then footsteps.</ProjectedText>
+                <ProjectedText id="sub4" wall="left" x="60" y="250" color="255 255 255">They ripped off my blindfold. </ProjectedText>
+                <ProjectedText id="sub5" wall="left" x="60" y="250" color="255 255 255">General Mendez was holding my wife.</ProjectedText>
+                <ProjectedText id="sub6" wall="left" x="60" y="250" color="255 255 255">He stripped her. She fought.</ProjectedText>
+                <ProjectedText id="sub7" wall="left" x="60" y="250" color="255 255 255">Two men held her legs.</ProjectedText>
+                <ProjectedText id="sub8" wall="left" x="60" y="250" color="255 255 255">Mendez laughed as he raped her.</ProjectedText>
+                <ProjectedText id="sub9" wall="left" x="60" y="250" color="255 255 255">They dumped her body in the bath.</ProjectedText>
+                <ProjectedText id="sub10" wall="left" x="60" y="250" color="255 255 255">‘Write that up in your newspaper.’</ProjectedText>
+                <ProjectedText id="sub11" wall="left" x="60" y="250" color="255 255 255">That’s how he said goodbye.</ProjectedText>
 
 		<ProjectedText id="motive" wall="right" x="60" y="250" color="255 255 255">Possible motive established.</ProjectedText>
 	</TextItems>
