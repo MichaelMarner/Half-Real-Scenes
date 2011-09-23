@@ -80,8 +80,8 @@
 	</Assets>
 
 	<VoteOptions>
-		<VoteOption text="Dead wife?" wall="left" inactive="255 255 255" active="0 0 255" x="0"    y="190" mode="ATA" />
-		<VoteOption text="Nervous tick?" wall="left" inactive="255 255 255" active="255 0 0" x="0" y="220" mode="ATA"/>
+		<VoteOption text="Dead wife?" wall="auto" inactive="255 255 255" active="0 0 255" x="0"    y="190" mode="ATA" />
+		<VoteOption text="Nervous tick?" wall="auto" inactive="255 255 255" active="255 0 0" x="0" y="220" mode="ATA"/>
 	</VoteOptions>
 
 	<TextItems>
