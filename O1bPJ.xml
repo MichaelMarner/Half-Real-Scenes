@@ -15,8 +15,8 @@
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
 		<Event name="ToImage Cabinet   Bathroom_C 3" time="0:00" repeat="0" />
 
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="CRONZERO"  time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<Event name="ProjectedText info2 appear" time="0:00"/>
 		<Event name="ProjectedText time2 appear" time="0:00"/>

@@ -36,7 +36,7 @@
 		<Event name="ToVideo LeftWall  Bookstore_L 5 1 0" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bookstore_R 5" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bookstore_F 5" time="0:00" repeat="0" />
-		<Event name="ProjectedText info2 appear" time="5"/>
+		<Event name="ProjectedText info2 appear" time="0:05"/>
 		<Event name="ProjectedText info2 fadeout" time="0:08"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
