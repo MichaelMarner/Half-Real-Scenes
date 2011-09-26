@@ -6,7 +6,7 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  Concrete_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Concrete_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Concrete_F 1"     time="0:00" repeat="0" />
+		<Event name="ToVideo Floor     Lineup_FV 2 1 1"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
 		<Event name="CRONZERO"                     time="0:00" repeat="0" />
 		<Event name="ProjectedText time appear"    time="0:00"/>
@@ -26,7 +26,7 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  Lineup_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Lineup_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Lineup_F 1"     time="0:00" repeat="0" />
+		<Event name="ToImage Floor     Lineup_F 3"     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 appear" time="0"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -46,6 +46,7 @@
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
+		<Asset type="video" name="Lineup_FV"  file="Lineup_F.mov" />
 
 		<Asset type="image" name="Concrete_L"  file="Concrete_Room_L.png" />
 		<Asset type="image" name="Concrete_R"  file="Concrete_Room_R.png" />
