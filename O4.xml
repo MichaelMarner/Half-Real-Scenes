@@ -68,6 +68,7 @@
 		<Event name="ToImage Floor     LRB_F 1" time="0:02" repeat="0" />
 		<Event name="ToImage Cabinet   LRB_C 1" time="0:02" repeat="0" />
 		<Event name="ProjectedText time5 fadeout" time="0:04"/>
+		<Event name="CRONZERO" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Black -->
