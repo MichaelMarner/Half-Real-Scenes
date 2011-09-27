@@ -9,8 +9,15 @@
 
 		<Event name="ToImage RightWall DBR_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  DBR_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     DBR_F 1" time="0:00" repeat="0" />
+		<Event name="ToVideo Floor     DBR_FV 2 1 1"     time="0:00" repeat="0" />
 		<Event name="ToImage Cabinet   DBR_C 1" time="0:00" repeat="0" />
+
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<Event name="ToImage RightWall DBR2_R 0.2" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  DBR2_L 0.2" time="0:00" repeat="0" />
+		<Event name="ToVideo Floor     DBR2_FV 1 1 1"     time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   DBR2_C 0.2" time="0:00" repeat="0" />
 
 		<!-- To Black -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -44,9 +51,15 @@
 		<Asset type="image" name="DBR_R"  file="Bathroom_Nightmare_02_R.png" />
 		<Asset type="image" name="DBR_F"  file="Bathroom_Nightmare_F.png" />
 		<Asset type="image" name="DBR_C"  file="Bathroom_Cabinet_Nightmare.png" />
+		<Asset type="video" name="DBR_FV"  file="Bathroom_Nightmare_F.mov" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
+
+		<Asset type="image" name="DBR2_L"  file="Bathroom_Nightmare_3_L.png" />
+		<Asset type="image" name="DBR2_R"  file="Bathroom_Nightmare_3_R.png" />
+		<Asset type="video" name="DBR2_FV"  file="Bathroom_Nightmare_3_F.mov" />
+		<Asset type="image" name="DBR2_C"  file="Bathroom_Cabinet.png" />
 	</Assets>
 
 	<VoteOptions>
