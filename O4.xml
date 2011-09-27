@@ -71,7 +71,9 @@
 		<Event name="CRONZERO" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
+
 		<!-- Black -->
+		<!--
 		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
@@ -82,12 +84,13 @@
 
 		<Event name="ProjectedText info4 fadeout" time="0:00"/>
 		<Event name="ProjectedText time4 fadeout" time="0:00"/>
+		-->
 
 		<!-- bathroom -->
-		<Event name="ToImage LeftWall  BRB_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall BRB_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     BRB_F 1" time="0:00" repeat="0" />
-		<Event name="ToImage Cabinet   BRB_C 1" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  BRB_L 10" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall BRB_R 10" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     BRB_F 10" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   BRB_C 10" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
 		<!-- Black -->
