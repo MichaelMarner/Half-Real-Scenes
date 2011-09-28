@@ -172,7 +172,7 @@
 
 		<ProjectedText id="msg1"      wall="left" x="158" y="250" color=" 255 255 255">I've been watching you all night.</ProjectedText>
 		<ProjectedText id="msg2"      wall="left" x="158" y="250" color=" 255 255 255">I want to drag you to a hotel room</ProjectedText>
-		<ProjectedText id="msg3"      wall="left" x="158" y="233" color=" 255 255 255">and slap you round baby. Bring your pink pyjamas.</ProjectedText>
+		<ProjectedText id="msg3"      wall="left" x="158" y="233" color=" 255 255 255">and slap you round baby. Bring your pyjamas.</ProjectedText>
 		<ProjectedText id="msg4"      wall="left" x="158" y="250" color=" 255 255 255">PS. I have something to show you. Jethro.</ProjectedText>
 
 		<ProjectedText id="jmsg1"      wall="left" x="158" y="250" color=" 255 255 255">Who is this?</ProjectedText>
