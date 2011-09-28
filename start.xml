@@ -37,6 +37,7 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToVideo LeftWall  Words_L 2 1 0"     time="0:00" repeat="0" />
 		<Event name="ToVideo RightWall Words_R 2 1 0"     time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1 0" time="0:00" repeat="0" />
 		
 
 
