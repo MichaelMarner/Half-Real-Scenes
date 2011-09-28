@@ -43,8 +43,6 @@
 		<Event name="VoteOption 3 fadeout" time="0:00"/>
 
 		<!-- O1 -->
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="VoteOption 3 fadeout" time="0:02"/>
 		<Event name="ToImage LeftWall  Bathroom_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Bathroom_R 3" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Bathroom_F 3" time="0:00" repeat="0" />
