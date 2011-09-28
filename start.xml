@@ -15,12 +15,18 @@
 		<Event name="CRONPAUSE"                    time="0:00" repeat="0" />
 		<Event name="ProjectedText drowned appear" time="0:00"/>
 
+		<Event name="CRONZERO"                     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ProjectedText vv fadeout" time="0"/>
 		<Event name="ProjectedText drowned fadeout" time="0"/>
 		<Event name="ProjectedText time fadeout" time="0"/>
+		<Event name="ProjectedText controller appear" time="0:02"/>
+		<Event name="CRONZERO"                     time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToVideo LeftWall Instructions_L 2 1 0"     time="0:00" repeat="0" />
+		<Event name="ProjectedText controller fadeout" time="0:00"/>
+		<Event name="ProjectedText voting appear" time="0:23"/>
+		<Event name="ProjectedText voting fadeout" time="0:26"/>
 
 		<!-- Vote options appear -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -69,5 +75,7 @@
 		<ProjectedText id="vv"      wall="left" x="60" y="250" color=" 255 255 255">Violet Vario</ProjectedText>
 		<ProjectedText id="drowned" wall="left" x="60" y="233" color="255 255 255">Drowned</ProjectedText>
 		<ProjectedText id="time"    wall="left" x="60" y="215" color="255 255 255">7:55-8:00pm</ProjectedText>
+		<ProjectedText id="controller"    wall="left" x="60" y="250" color="255 255 255">Your Controller</ProjectedText>
+		<ProjectedText id="voting"    wall="left" x="60" y="250" color="255 255 255">How to Vote</ProjectedText>
 	</TextItems>
 </Scene>
