@@ -10,13 +10,14 @@
 		<Event name="ProjectedText time1 appear" time="0:03"/>
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 
-		<!-- Bathroom -->
+
+		<!-- Cupboard -->
 		<Event name="ProjectedText info1 fadeout" time="0:00"/>
 		<Event name="ProjectedText time1 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  BR_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall BR_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     BR_F 1" time="0:00" repeat="0" />
-		<Event name="ToImage Cabinet   Bathroom_C 1" time="0:00" repeat="0" />
+		<Event name="ToColor LeftWall  0 0 0  1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0  1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet   0 0 0 1 0" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall Cupboard_R 1" time="0:00" repeat="0" />
 
 		<Event name="CRONZERO" time="0:00" repeat="0" />
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -26,36 +27,37 @@
 		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
 		<Event name="ToColor Cabinet 0 0 0 1 0"     time="0:00" repeat="0" />
-		<Event name="ProjectedText info2 appear" time="0:02"/>
-		<Event name="ProjectedText time2 appear" time="0:02.5"/>
+		<Event name="ProjectedText time2 appear" time="0:01"/>
 
+		<!-- Outside Bathroom -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ProjectedText info2 fadeout" time="0:00"/>
 		<Event name="ProjectedText time2 fadeout" time="0:00"/>
-		<Event name="ToImage LeftWall  Outside_L 1" time="0:00" repeat="0" />
-		<Event name="ToImage RightWall Outside_R 1" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     Outside_F 1" time="0:00" repeat="0" />
-		<Event name="ToImage Cabinet   House_Exterior_C 1" time="0:02" repeat="0" />
-
-		<Event name="CRONZERO" time="0:00" repeat="0" />
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-
-		<!-- Black -->
-		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
-		<Event name="ToColor Cabinet 0 0 0 1 0"     time="0:00" repeat="0" />
-		<Event name="ProjectedText info3 appear" time="0:02"/>
-		<Event name="ProjectedText time3 appear" time="0:02.5"/>
-		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-
-		<Event name="ProjectedText info3 fadeout" time="0:05"/>
-		<Event name="ProjectedText time3 fadeout" time="0:05"/>
-
-		<!-- Outside BathRoom -->
 		<Event name="ToImage LeftWall  Outside_Bathroom_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall Outside_Bathroom_R 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Outside_Bathroom_F 1" time="0:00" repeat="0" />
+
+		<!-- Crossfade to bathroom -->
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  BRB_L 3" time="0:00" repeat="0" />
+		<Event name="ToImage RightWall BRB_R 3" time="0:00" repeat="0" />
+		<Event name="ToImage Floor     BRB_F 3" time="0:00" repeat="0" />
+		<Event name="ToImage Cabinet   BRB_C 3" time="0:00" repeat="0" />
+
+		<Event name="CRONZERO" time="0:00" repeat="0" />
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Black -->
+		<Event name="ToColor LeftWall  0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 1" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 1 0"     time="0:00" repeat="0" />
+		<Event name="ProjectedText time3 appear" time="0:01"/>
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+
+		<!-- Otus Car -->
+		<Event name="ProjectedText time3 fadeout" time="0:00"/>
+		<Event name="ToImage LeftWall  Otus_Car_L 1" time="0:00" repeat="0" />
+
 
 		<!-- Black -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
@@ -84,11 +86,16 @@
 	</CronEvents>
 
 	<Assets>
-		<Asset type="image" name="BR_L"  file="Bathroom_L.png" />
-		<Asset type="image" name="BR_R"  file="Bathroom_R.png" />
-		<Asset type="image" name="BR_F"  file="Bathroom_F.png" />
 
-		<Asset type="image" name="VT_R"  file="Violet_Toilet_R.png" />
+		<Asset type="image" name="Cupboard_R"  file="Cupboard_R.png" />
+
+		<Asset type="image" name="BRB_L"  file="Bathroom_Blackout_L.png" />
+		<Asset type="image" name="BRB_R"  file="Bathroom_Blackout_R.png" />
+		<Asset type="image" name="BRB_F"  file="Bathroom_Blackout_F.png" />
+		<Asset type="image" name="BRB_C"  file="Bathroom_Cabinet_Blackout.png" />
+
+		<Asset type="image" name="Otus_Car_L"  file="Otus_Car_L.png" />
+
 
 		<Asset type="image" name="L_L"  file="Lineup_white_L.png" />
 		<Asset type="image" name="L_R"  file="Lineup_white_R.png" />
@@ -111,17 +118,12 @@
 	</VoteOptions>
 
 	<TextItems>
-		<ProjectedText id="info1"      wall="left" x="60" y="250" color=" 255 255 255">5 minutes before the murder</ProjectedText>
-		<ProjectedText id="time1"      wall="left" x="60" y="233" color=" 255 255 255">7:53pm</ProjectedText>
+		<ProjectedText id="info1"      wall="left" x="60" y="250" color=" 255 255 255">4 minutes before the murder</ProjectedText>
+		<ProjectedText id="time1"      wall="left" x="60" y="233" color=" 255 255 255">7:54pm</ProjectedText>
 
-		<ProjectedText id="infot"      wall="left" x="60" y="250" color=" 255 255 255">Toilet</ProjectedText>
-		<ProjectedText id="timet"      wall="left" x="60" y="233" color=" 255 255 255">7:54pm</ProjectedText>
+		<ProjectedText id="time2"      wall="left" x="60" y="233" color=" 255 255 255">7:56pm</ProjectedText>
+		<ProjectedText id="time3"      wall="left" x="60" y="233" color=" 255 255 255">8:01pm</ProjectedText>
 
-		<ProjectedText id="info2"      wall="left" x="60" y="250" color=" 255 255 255">Outside</ProjectedText>
-		<ProjectedText id="time2"      wall="left" x="60" y="233" color=" 255 255 255">7:55pm</ProjectedText>
-
-		<ProjectedText id="info3"      wall="left" x="60" y="250" color=" 255 255 255">Outside Bathroom</ProjectedText>
-		<ProjectedText id="time3"      wall="left" x="60" y="233" color=" 255 255 255">7:57pm</ProjectedText>
 	</TextItems>
 </Scene>
 
