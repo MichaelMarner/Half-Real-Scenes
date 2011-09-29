@@ -62,10 +62,10 @@
 
 		<!-- Black -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToColor LeftWall  0 0 0 0" time="0:00" repeat="0" />
-		<Event name="ToColor RightWall 0 0 0 0" time="0:00" repeat="0" />
-		<Event name="ToColor Floor     0 0 0 0" time="0:00" repeat="0" />
-		<Event name="ToColor Cabinet 0 0 0 0 0"     time="0:00" repeat="0" />
+		<Event name="ToColor LeftWall  0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="ToColor RightWall 0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="ToColor Floor     0 0 0 0.2" time="0:00" repeat="0" />
+		<Event name="ToColor Cabinet 0 0 0 0.2 0"     time="0:00" repeat="0" />
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToColor LeftWall  255 255 255 1" time="0:00" repeat="0" />
