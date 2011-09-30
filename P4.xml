@@ -68,10 +68,10 @@
 		<Event name="ToColor Cabinet 0 0 0 0.2 0"     time="0:00" repeat="0" />
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
-		<Event name="ToColor LeftWall  255 255 255 1" time="0:00" repeat="0" />
-		<Event name="ToColor RightWall 255 255 255 1" time="0:00" repeat="0" />
-		<Event name="ToColor Cabinet   255 255 255 1" time="0:00" repeat="0" />
-		<Event name="ToColor Floor     255 255 255 1" time="0:00" repeat="0" />
+		<Event name="ToImage LeftWall  GO_L 1" time="0:02" repeat="0" />
+		<Event name="ToImage RightWall GO_R 1" time="0:02" repeat="0" />
+		<Event name="ToImage Floor     GO_F 1" time="0:02" repeat="0" />
+
 
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="VoteOption 1 appear" time="0"/>
@@ -98,9 +98,9 @@
 		<Asset type="image" name="Otus_Car_L"  file="Otus_Car_L.png" />
 
 
-		<Asset type="image" name="L_L"  file="Lineup_white_L.png" />
-		<Asset type="image" name="L_R"  file="Lineup_white_R.png" />
-		<Asset type="image" name="L_F"  file="Lineup_white_F.png" />
+		<Asset type="image" name="GO_L"  file="Game_Over_L.png" />
+		<Asset type="image" name="GO_R"  file="Game_Over_R.png" />
+		<Asset type="image" name="GO_F"  file="Game_Over_F.png" />
 		<Asset type="image" name="Outside_L"  file="House_Exterior_L.png" />
 		<Asset type="image" name="Outside_R"  file="House_Exterior_R.png" />
 		<Asset type="image" name="Outside_F"  file="House_Exterior_F.png" />
