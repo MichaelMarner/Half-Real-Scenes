@@ -10,6 +10,10 @@
 		<Event name="ToImage LeftWall  Laundry_L 1" time="0:00" repeat="0" />
 		<Event name="ToImage Floor     Laundry_F 1" time="0:00" repeat="0" />
 
+		<!-- New video on floor -->
+		<Event name="CRONPAUSE" time="0:00" repeat="0" />
+		<Event name="ToVideo Floor     Laundry_FV 3 1 1"     time="0:00" repeat="0" />
+
 		<!-- To Black -->
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToColor LeftWall  0 0 0 0.2" time="0:00" repeat="0" />
@@ -42,6 +46,7 @@
 		<Asset type="image" name="Laundry_L"  file="Laundry_L.png" />
 		<Asset type="image" name="Laundry_R"  file="Laundry_R.png" />
 		<Asset type="image" name="Laundry_F"  file="Laundry_F.png" />
+		<Asset type="video" name="Laundry_FV"  file="Laundry_F.mov" />
 		<Asset type="image" name="Lineup_L"  file="Lineup_L.png" />
 		<Asset type="image" name="Lineup_R"  file="Lineup_R.png" />
 		<Asset type="image" name="Lineup_F"  file="Lineup_F.png" />
