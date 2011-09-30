@@ -39,7 +39,7 @@
 		<Event name="CRONPAUSE" time="0:00" repeat="0" />
 		<Event name="ToImage LeftWall  BRB_L 3" time="0:00" repeat="0" />
 		<Event name="ToImage RightWall BRB_R 3" time="0:00" repeat="0" />
-		<Event name="ToImage Floor     BRB_F 3" time="0:00" repeat="0" />
+		<Event name="ToVideo Floor     BRB_F 3 1 1"     time="0:00" repeat="0" />
 		<Event name="ToImage Cabinet   BRB_C 3" time="0:00" repeat="0" />
 
 		<Event name="CRONZERO" time="0:00" repeat="0" />
@@ -92,7 +92,7 @@
 
 		<Asset type="image" name="BRB_L"  file="Bathroom_Blackout_L.png" />
 		<Asset type="image" name="BRB_R"  file="Bathroom_Blackout_R.png" />
-		<Asset type="image" name="BRB_F"  file="Bathroom_Blackout_F.png" />
+		<Asset type="video" name="BRB_F"  file="Bathroom_Blackout_Violet_F.png" />
 		<Asset type="image" name="BRB_C"  file="Bathroom_Cabinet_Blackout.png" />
 
 		<Asset type="image" name="Otus_Car_L"  file="Otus_Car_L.png" />
