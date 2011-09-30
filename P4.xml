@@ -92,7 +92,7 @@
 
 		<Asset type="image" name="BRB_L"  file="Bathroom_Blackout_L.png" />
 		<Asset type="image" name="BRB_R"  file="Bathroom_Blackout_R.png" />
-		<Asset type="video" name="BRB_F"  file="Bathroom_Blackout_Violet_F.png" />
+		<Asset type="video" name="BRB_F"  file="Bathroom_Blackout_Violet_F.mov" />
 		<Asset type="image" name="BRB_C"  file="Bathroom_Cabinet_Blackout.png" />
 
 		<Asset type="image" name="Otus_Car_L"  file="Otus_Car_L.png" />
